@@ -1,0 +1,43 @@
+@import "css-modules/slideshow.css";
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a[class] {
+    text-decoration: none;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+    --dark-beige: #A09167;
+    --light-beige: #C0AB9F;
+    --light-blue: #2DAAF3;
+    --dark-grey: #111111;
+    --light-grey: #E1E1E1;
+    --black: #000;
+    --white: #fff;
+}
