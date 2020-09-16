@@ -1,0 +1,25 @@
+.body__nav{
+    height: 50px;
+    background-color: black;
+    border-top: 1px solid var(--dark-beige);
+}
+.nav__navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30vw;
+    height: 100%;
+}
+.navigation__navigationItem{
+    height: 100%;
+}
+.navigationItem__aTag{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+.navigationItem__aTag:hover{
+    color: var(--dark-beige);
+}

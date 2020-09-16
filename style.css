@@ -42,3 +42,18 @@ img {
     --black: #000;
     --white: #fff;
 }
+
+@font-face {
+  font-family: MuseoSansReg;
+  src: url(fonts/MuseoSansRoundedWebfont/MuseoSansRounded300.woff);
+}
+
+@font-face {
+  font-family: MuseoSansBold;
+  src: url(fonts/MuseoSansRoundedWebfont/MuseoSansRounded500.woff);
+}
+
+@font-face {
+  font-family: MuseoSansBoldest;
+  src: url(fonts/MuseoSansRoundedWebfont/MuseoSansRounded700.woff);
+}
