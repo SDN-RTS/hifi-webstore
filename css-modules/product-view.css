@@ -1,0 +1,149 @@
+.productViewWrapper {
+    font-family: 'MuseoSansReg', sans-serif;
+    background-color: var(--black);
+    min-height: 100vh;
+}
+
+.productViewTop__productViewHeader {
+    display: flex;
+    align-items: flex-end;
+    background-color: var(--black);
+    height: 5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+    .productViewHeader__logoWrapper {
+        width: 50vw;
+    }
+    .productViewHeader__searchbar {
+        width: 500px;
+        height: 2.5em;
+        margin-right: .3em;
+        border-radius: .2em;
+        border: 1px solid var(--light-grey);
+        background-image: url('../images/logos/search-icon.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+        .productViewHeader__searchbar::placeholder {
+            color: #c5c5c5;
+            padding-left: .5em;
+            font-size: 1.1em;
+        }
+    .productViewHeader__iconWrapper {
+        width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        color: var(--light-grey);
+    }
+        .productViewHeader__iconWrapper i {
+            margin: 0 .7em;
+            font-size: 1.4em;
+        }
+        .productViewHeader__iconWrapper p {
+            font-size: 0.9em;
+        }
+        .productViewHeader__account {
+            display: flex;
+        }
+        .productViewHeader__cart {
+            display: flex;
+        }
+
+
+.productViewMain {
+    width: 83vw;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 0 1.5em;
+}
+    .productViewMain__navInfo {
+        display: flex;
+        align-items: flex-end;
+        height: 3em;
+    }
+        .productViewMain__navInfo p {
+            margin: 0 1em;
+            font-family: 'MuseoSansBold', sans-serif;
+            font-size: .9em;
+            color: var(--dark-beige);
+        }
+        .productViewMain__navInfo p:first-child {
+            margin: 0 1em;
+            margin-left: 0;
+        }
+        .productViewMain__navInfo p:last-child {
+            color: var(--black);
+        }
+
+    .productViewMain__banner {
+        margin: 1em 0;
+    }
+
+    .productViewMain__productWrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+        .productViewMain__productImageWrapper {
+            width: 49.2%;
+        }
+        .productImageWrapper__image {
+            border: 1px solid var(--light-grey);
+        }
+        .productImageWrapper__viewMore {
+            font-family: 'MuseoSansBold', sans-serif;
+            color: var(--dark-beige);
+            margin: 1em 0;
+        }
+        .productImageWrapper__previewImages {
+            width: 20%;
+            display: flex;
+        }
+        .productViewMain__productInfoWrapper {
+            width: 49.2%;
+        }
+            .productInfoWrapper__name {
+                font-family: 'MuseoSansBold', sans-serif;
+                font-size: 1.5em;
+                color: var(--dark-beige);
+            }
+            .productInfoWrapper__pricesWrapper {
+                display: flex;
+                justify-content: space-between;
+                margin: 1.5em 0;
+            }
+                .pricesWrapper__link {
+                    color: var(--dark-beige);
+                    font-family: 'MuseoSansBold', sans-serif;
+                }
+                .productInfoWrapper__prices {
+                    display: flex;
+                }
+                    .productInfoWrapper__beforePrice {
+                        font-size: 1.2em;
+                        color: rgb(175, 175, 175);
+                        text-decoration: line-through;
+                    }
+                    .productInfoWrapper__afterPrice {
+                        font-size: 1.5em;
+                        margin-left: 1em;
+                        color: var(--dark-beige);
+                    }
+
+        .productInfoWrapper__descriptionText {
+            line-height: 1.4em;
+            margin-bottom: 2.5em;
+        }
+        .productInfoWrapper__linkButton {
+            font-family: 'MuseoSansBold', sans-serif;
+            font-size: 0.9em;
+            color: var(--white);
+            background-color: var(--dark-beige);
+            padding: .6em .8em;
+        }
+    .productViewMain__productDescriptionWrapper {
+        width: 100%;
+        height: 500px;
+        background-color: aquamarine;
+    }
