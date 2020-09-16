@@ -1,0 +1,95 @@
+.header__homePage{
+    height: 60vh;
+    background-image: url("../images/background-img/header-speaker.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.homePage__subscriptionPanelWrapper{
+    display: flex;
+    justify-content: flex-end;
+    /* position: relative; */
+}
+
+/* .homePage__subscriptionPanelWrapper::after{
+    content: "";
+    background-color: var(--black);
+    opacity: .2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+} */
+
+.subscriptionPanelWrapper__subscriptionPanel{
+    width: 17vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.subscriptionPanelWrapper__subscriptionPanel a svg{
+    fill: var(--white);
+    height: 24px;
+    width: 24px;
+}
+
+.subscriptionPanel__button{
+    cursor: pointer;
+    border-radius: 4px;
+    height: 24px;
+    border: none;
+    color: var(--white);
+    font-family: MuseoSansBolder, sans-serif;
+    font-size: .75em;
+    width: 100px;
+    background-color: var(--light-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscriptionPanel__button p{
+    border-left: .5px solid var(--light-grey);
+    padding-left: 5px;
+
+}
+
+.subscriptionPanel__button a svg{
+    padding-top: 4px;
+    height: 18px;
+    width: 18px;
+}
+
+/* mikkel skal ændre til nav */
+.homePage__nav{
+    height: 25px;
+    width: 100%;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.homePage__logoWrapper{
+    align-self: center;
+    margin-top: 120px;
+    font-size: .8em;
+    color: var(--white);
+
+}
+
+.homePage__logo{
+    height: 150px;
+    width: 150px;
+    border: 2px solid var(--white);
+    color: var(--white);
+    font-size: 1.7em;
+    letter-spacing: 3px;
+    font-family: MuseoSansBold, sans-serif;
+    border: var(--white) 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+}
