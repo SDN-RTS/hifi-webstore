@@ -10,19 +10,10 @@
 .homePage__subscriptionPanelWrapper{
     display: flex;
     justify-content: flex-end;
-    /* position: relative; */
+    background-color: rgba(0, 0, 0, 0.322);
 }
 
-/* .homePage__subscriptionPanelWrapper::after{
-    content: "";
-    background-color: var(--black);
-    opacity: .2;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-} */
+
 
 .subscriptionPanelWrapper__subscriptionPanel{
     width: 17vw;
@@ -96,7 +87,7 @@
 
 .homePage__intro{
     height: 30vh;
-    background-image: url("../images/background-img/titleBackground.jpg");
+    background-image: url("../images/background-img/Component\ 20.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
