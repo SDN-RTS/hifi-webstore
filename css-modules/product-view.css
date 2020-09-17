@@ -320,6 +320,7 @@
             }
 
     .productViewMain__callUs {
+        display: block;
         margin: 0 auto;
         font-size: 1.3em;
         color: var(--dark-beige);
