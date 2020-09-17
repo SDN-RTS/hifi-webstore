@@ -1,5 +1,8 @@
-@import "css-modules/slideshow.css";
 @import "css-modules/homePage-header.css";
+@import "css-modules/slideshow.css";
+@import "css-modules/socialMedia.css";
+@import "css-modules/links.css";
+
 
 /* Box sizing rules */
 *,

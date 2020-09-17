@@ -1,0 +1,32 @@
+.homePage__linksWrapper{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.linksWrapper__link{
+    width: 24vw;
+    text-align: center;
+}
+
+.linksWrapper__link a{
+    border: var(--white) 1px solid;
+    font-family: MuseoSansBoldest, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 7px;
+    color:var(--dark-beige) ;
+}
+
+.linksWrapper__link p{
+    padding-top: 12px;
+}
+
+.linksWrapper__news{
+    margin: 0 40px;
+}

@@ -1,0 +1,23 @@
+.homePage__scMediaWrapper{
+    height: 40vh;
+    display: flex;
+    width: 100%;
+}
+
+.scMediaIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/socialMedia-backround/scBackground1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex:1;
+}
+
+.scMediaIcon a svg{
+    max-height: 10vw;
+    max-width: 10vw;
+    fill: var(--white);
+    /* opacity: .9; */
+}
