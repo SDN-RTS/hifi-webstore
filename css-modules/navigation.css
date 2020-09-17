@@ -1,7 +1,7 @@
 .body__nav{
-    height: 50px;
+    height: 65px;
     background-color: black;
-    border-top: 1px solid var(--dark-beige);
+    border-top: 1px solid rgba(160, 145, 103, 0.42);
 }
 .nav__navigation{
     display: flex;
@@ -19,6 +19,8 @@
     justify-content: center;
     align-items: center;
     color: var(--white);
+    font-family: 'MuseoSansBold', sans-serif;
+    text-transform: uppercase;
 }
 .navigationItem__aTag:hover{
     color: var(--dark-beige);
