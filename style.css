@@ -1,7 +1,9 @@
+@import "css-modules/homePage-header.css";
 @import "css-modules/slideshow.css";
 @import "css-modules/navigation.css";
 @import "css-modules/product-view.css";
-
+@import "css-modules/socialMedia.css";
+@import "css-modules/links.css";
 /* Box sizing rules */
 *,
 *::before,
