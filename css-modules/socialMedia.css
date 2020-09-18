@@ -16,8 +16,8 @@
 }
 
 .scMediaIcon a svg{
-    max-height: 10vw;
-    max-width: 10vw;
+    height: 15vw;
+    width: 15vw;
     fill: var(--white);
     /* opacity: .9; */
 }
