@@ -71,18 +71,36 @@
 
 }
 
+.homePage__logoWrapper h3{
+    font-family: MuseoSansBold, sans-serif;
+    letter-spacing: .2em;
+    font-size: .965em ;
+}
+
+.homePage__logo h3:last-child{
+    letter-spacing: 16.87px; 
+}
+
 .homePage__logo{
-    height: 200px;
+    height: 190px;
     width: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
     border: 2px solid var(--white);
     color: var(--white);
     font-size: 1.7em;
     letter-spacing: 3px;
+    line-height: 1.15em;
+    margin-bottom: 7px;
     font-family: MuseoSansBold, sans-serif;
     border: var(--white) 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;   
+}
+
+.homePage__logo{
+    font-size: 2.33em;
 }
 
 .homePage__intro{
