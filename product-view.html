@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI-FI Webstore</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e489ebad2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="productViewWrapper">
+        <section class="productViewTop">
+            <header class="productViewTop__productViewHeader">
+                <div class="productViewHeader__logoWrapper">
+                    <!-- This image is to be replaced with logo when it is finished -->
+                    <img class="productViewHeader__logo" src="images/hificorner-logo.svg" alt="logo">
+                </div>
+
+                <input type="text" class="productViewHeader__searchbar" placeholder="Search entire store here...">
+
+                <div class="productViewHeader__iconWrapper">
+                    <div class="productViewHeader__account">
+                        <i class="fas fa-user"></i>
+                        <p>ACCOUNT</p>
+                    </div>
+                    <div class="productViewHeader__cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>CART</p>
+                    </div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <i class="fas fa-phone"></i>
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </header>
+
+            <nav class="body__nav">
+                <ul class="nav__navigation">
+                    <li class="navigation__navigationItem">
+                        <a class="navigationItem__aTag" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="navigation__navigationItem">
+                        <a class="navigationItem__aTag" href="#">
+                            about us
+                        </a>
+                    </li>
+                    <li class="navigation__navigationItem">
+                        <a class="navigationItem__aTag" href="#">
+                            brands
+                        </a>
+                    </li>
+                    <li class="navigation__navigationItem">
+                        <a class="navigationItem__aTag" href="#">
+                            blog
+                        </a>
+                    </li>
+                    <li class="navigation__navigationItem">
+                        <a class="navigationItem__aTag" href="#">
+                            events
+                        </a>
+                    </li>
+                    <li class="navigation__navigationItem">
+                        <a class="navigationItem__aTag" href="#">
+                            shop
+                        </a>
+                    </li>
+                    <li class="navigation__navigationItem">
+                        <a class="navigationItem__aTag" href="#">
+                            contact us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <main class="productViewMain">
+            <section class="productViewMain__navInfo">
+                <p>Home</p>
+                /
+                <p>Amplifiers</p>
+                /
+                <p>Marantz PM6006 UK Edition Integrated Amplifier</p>
+            </section>
+            <img class="productViewMain__banner" src="images/product-view/banner-bond.svg" alt="banner">
+            <div class="productViewMain__productWrapper">
+                <section class="productViewMain__productImageWrapper">
+                    <img id="productImageWrapper__image" src="images/product-view/amplifier-front.PNG" alt="amplifier" class="productImageWrapper__image">
+                    <h3 class="productImageWrapper__viewMore">MORE VIEWS</h3>
+                    <div class="productImageWrapper__previewImages">
+                        <img id="previewImages__image1" src="images/product-view/amplifier-back.PNG" alt="amplifier">
+                        <img id="previewImages__image2" src="images/product-view/amplifier-front.PNG" alt="amplifier">
+                    </div>
+                </section>
+                <section class="productViewMain__productInfoWrapper">
+                    <h1 class="productInfoWrapper__name">MARANTZ PM6006 UK EDITION INTEGRATED AMPLIFIER</h1>
+                    <div class="productInfoWrapper__pricesWrapper">
+                        <a class="pricesWrapper__link" href="#">See other Marantz products</a>
+                        <div class="productInfoWrapper__prices">
+                            <p class="productInfoWrapper__beforePrice">£469.00</p>
+                            <p class="productInfoWrapper__afterPrice">£429.00</p>
+                        </div>
+                    </div>
+                    <p class="productInfoWrapper__descriptionText">
+                        The PM6006 is an upgraded successor of the multi-award-winning PM6005. Marantz retained the
+                        pre-amp and power-amp sections that exclusively feature discrete components- not a single IC
+                        in sight of the signal path. The PM6006 is upgraded for peak current at the amplifier stage,
+                        which makes it possible to refine the sound for you in much more detail.
+                    </p>
+                    <div class="productInfoWrapper__linksWrapper">
+                        <button class="productInfoWrapper__linkButton" href="#">ASK A QUESTION</button>
+                        <button class="productInfoWrapper__linkButton" href="#">PART EXCHANGE</button>
+                        <button class="productInfoWrapper__linkButton" href="#">PAY BY FINANCE</button>
+                        <button class="productInfoWrapper__linkButton" href="#">SEEN A BETTER PRICE?</button>
+                    </div>
+                    <div class="productInfoWrapper__buyWrapper">
+                        <section class="buyWrapper__finishRadioButtons">
+                            <div class="finishRadioButtons__titles">
+                                <h4>Finish<span>*</span></h4>
+                                <p class="finishRadioButtons__requiredField"><span>*</span>Required Fields</p>
+                            </div>
+                            <div class="finishRadioButtons__black">
+                                <input type="radio" name="finish" id="finish__black">
+                                <label for="finish__black">Black</label>
+                            </div>
+                            <div class="finishRadioButtons__silver">
+                                <input type="radio" name="finish" id="finish__silver">
+                                <label for="finish__silver">Silver</label>
+                            </div>
+                        </section>
+                        <section class="buyWrapper__addToCartWrapper">
+                            <div class="addToCartWrapper__outerWrapper">
+                                <div class="addtoCartWrapper__inputWrapper">
+                                    <h4>Qty:</h4>
+                                    <input type="number" name="qty" id="qty">
+                                </div>
+                                <div class="addToCartWrapper__buyButtons">
+                                    <button>ADD TO CART</button>
+                                    <p>-OR-</p>
+                                    <!-- PayPal Logo -->
+                                    <table border="0" cellpadding="10" cellspacing="0" align="center">
+                                        <tr>
+                                            <td align="center"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center"><a
+                                                    href="https://www.paypal.com/c2/webapps/mpp/paypal-popup?locale.x=en_C2"
+                                                    title="Check out with PayPal"
+                                                    onclick="javascript:window.open('https://www.paypal.com/c2/webapps/mpp/paypal-popup?locale.x=en_C2','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img
+                                                        src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/C2/logos-buttons/26_Yellow_CheckOut_Pill_Button.png"
+                                                        alt="Check out with PayPal" /></a></td>
+                                        </tr>
+                                    </table>
+                                    <span>The safer, easier way to pay</span>
+                                    <!-- PayPal Logo -->
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <section class="productViewMain__information">
+                        <h2 class="productViewMain__informationName">ADDITIONAL INFORMATION</h2>
+                        <table>
+                            <tr>
+                                <th>MANUFACTURER</th>
+                                <td>Marantz</td>
+                            </tr>
+                            <tr>
+                                <th>MANUFACTURER LINK</th>
+                                <td><a href="#">Marantz PM6006</a></td>
+                            </tr>
+                            <tr>
+                                <th>FREE WARANTY</th>
+                                <td>3 years</td>
+                            </tr>
+                            <tr>
+                                <th>DELIVERY CHARGE</th>
+                                <td>Free</td>
+                            </tr>
+                            <tr>
+                                <th>DELIVERY TIME</th>
+                                <td>1-5 Working Days</td>
+                            </tr>
+                            <tr>
+                                <th>CARD SURCHARGES</th>
+                                <td>No</td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>
+            </div>
+            <section class="productViewMain__productDescriptionWrapper">
+                <h2 class="productDescriptionWrapper__name">DESCRIPTION</h2>
+                <table>
+                    <tr>
+                        <th>Power Output (8 / 4 Ohm RMS)</th>
+                        <td>45 W / 60 W - 10Hz</td>
+                    </tr>
+                    <tr>
+                        <th>Frequency Response</th>
+                        <td>70 kHz</td>
+                    </tr>
+                    <tr>
+                        <th>Total Harmonic Distortion</th>
+                        <td>0.08%</td>
+                    </tr>
+                    <tr>
+                        <th>Damping Factor</th>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <th>Input sensitivity: MM</th>
+                        <td>2.2 mV / 47 kOhm</td>
+                    </tr>
+                    <tr>
+                        <th>Input Sensitivity: MC</th>
+                        <td class="table__check">x</td>
+                    </tr>
+                    <tr>
+                        <th>Signal to Noise Ratio: MM / MC</th>
+                        <td>83 dB</td>
+                    </tr>
+                    <tr>
+                        <th>Input Sensitivity: High level</th>
+                        <td>200 mV / 20 kOhm</td>
+                    </tr>
+                    <tr>
+                        <th>Input Sensitivity: Balanced High level</th>
+                        <td class="table__check">x</td>
+                    </tr>
+                    <tr>
+                        <th>Signal to Noise Ratio: High level</th>
+                        <td>102dB(2V input)</td>
+                    </tr>
+                    <tr>
+                        <th>Input Sensitivity: Power Amp Direct IN</th>
+                        <td class="table__check">x</td>
+                    </tr>
+                    <tr>
+                        <th>Signal to Noise Ratio: Power Amp Direct IN</th>
+                        <td class="table__check">x</td>
+                    </tr>
+                </table>
+            </section>
+            <a href="#" class="productViewMain__callUs"><i class="fas fa-phone"></i>CALL US ABOUT THIS PRODUCT</a>
+        </main>
+        
+        <footer class="body__mainFooter">
+            <div class="mainFooter__leftsideFooter">
+                <address class="leftsideFooter__address">
+                    HI-FI Corner <br>
+                    Edinburgh 2 Joppa Road EH15 2EU <br>
+                    Falkirk 44 Cow Wynd FK1 1PU <br>
+                </address>
+                <div class="leftsideFooter__policy">
+                    <p class="policy__policies"><a href="#" class="policy__returnPolicy">Returns & Refunds</a> | <a class="policy__privacyPolicy"href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+    
+            <div class="mainFooter__rightsideFooter">
+                <div class="rightsideFooter__paymentMethods">
+                    <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/Worldpay-Logo.png" alt="worldpay">
+                    <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/Visa-Logo.png" alt="visa">
+                    <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/MasterCard-Logo.png" alt="mastercard">
+                    <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/Maestro_logo.png" alt="maestro">
+                    <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/jcb-logo.png" alt="jbc">
+                    <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/Paypal-Logo.png" alt="paypal">
+                </div>
+                <div class="rightsideFooter__socialIcons">
+                    <a class="mainFooterSocialIcons__socialIcon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mainFooterSocialIcons__socialIcon" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="mainFooterSocialIcons__socialIcon" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="mainFooterSocialIcons__socialIcon" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>

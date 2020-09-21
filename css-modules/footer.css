@@ -1,0 +1,71 @@
+.body__mainFooter{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--dark-beige);
+    padding: 0 50px;
+    align-items: center;
+    height: 100px;
+}
+
+
+/* #region leftsideFooter */
+.paymentMethods__paymentMethod{
+    width: 20px;
+}
+.mainFooter__leftsideFooter{
+    display: flex;
+}
+.leftsideFooter__address{
+    margin-right: 40px;
+    font-family: "MuseoSansBoldest", sans-serif;
+    font-style: normal;
+}
+.policy__policies{
+    color: white;
+}
+.policy__policies a[class]{
+    color: white;
+    text-decoration: underline;
+    font-family: "MuseoSansReg", sans-serif;
+}
+/* #endregion leftsideFooter */
+
+
+/* #region rightsideFooter */
+.mainFooter__rightsideFooter{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.rightsideFooter__paymentMethods{
+    display: flex;
+    width: 540px;
+    justify-content: space-between;
+    height: 25%;
+    margin-right: 40px;
+}
+.paymentMethods__paymentMethod{
+    height: 100%;
+    width: auto;
+}
+.rightsideFooter__socialIcons{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+.mainFooterSocialIcons__socialIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+/* #endregion rightsideFooter */
+
+@media screen and (max-width: 1340px) { .mainFooter__leftsideFooter{ display: initial; } }
