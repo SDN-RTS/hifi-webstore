@@ -1,0 +1,115 @@
+.category-top{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5em;
+}
+
+.category-top svg{
+    width: 2em;
+    fill: white;
+}
+
+.category-body{
+    background-color: black;
+}
+.Category-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+.category-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 85vmin;
+    height: 85vmin
+}
+.category-categoryTab{
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+    font-family: 'MuseoSansReg', sans-serif;
+    }
+
+
+    .category-categoryTab-img{
+
+        filter: sepia(80%);
+        background-size: 200%;
+        background-repeat : no-repeat;
+        background-position: center;
+    }
+
+    .category-categoryTab a{
+        color: white;
+    }
+
+
+    .category-categoryTab-img1, .category-categoryTab-img8{
+        background-image: url(../images/kategori_img/shop_by_brandjpeg.jpeg);
+    }
+
+    .category-categoryTab-img2{
+        background-image: url(../images/kategori_img/amplifiers.jpeg);
+        background-position-y: 10%;
+    }
+
+    .category-categoryTab-img3{
+        background-image: url(../images/kategori_img/speakers.jpeg);
+    }
+
+    .category-categoryTab-img4{
+        background-image: url(../images/kategori_img/turntables.jpeg);
+    }
+
+    .category-categoryTab-img5{
+        background-image: url(../images/kategori_img/cd_player.jpeg);
+        background-position-x: 10%;
+        background-position-y: 100%;
+        background-size: 220%;
+    }
+
+    .category-categoryTab-img6{
+        background-image: url(../images/kategori_img/stremers.jpeg);
+        }
+    .category-categoryTab-img7{
+        background-image: url(../images/kategori_img/cables.jpeg);
+    }
+    .category-categoryTab-img9{
+        background-image: url(../images/kategori_img/headphones.jpeg);
+        background-size: 100%;
+        background-position-y: 10%;
+    }
+    .category-categoryTab-img10{
+        background-image: url(../images/kategori_img/home_cinema.jpeg);
+        background-size: 100%;
+    }
+    .category-categoryTab-img11{
+        background-image: url(../images/kategori_img/outlet.jpeg);
+        background-position-y: 60%;
+    }
+    .category-categoryTab-img12{
+        background-image: url(../images/kategori_img/ebay_shop.jpg);
+    }.category-categoryTab-img13{
+        background-image: url(../images/kategori_img/ceiling_speakers.jpg);
+    }
+    .category-categoryTab-img14{
+        background-image: url(../images/kategori_img/tvs.jpg);
+    }
+    .category-categoryTab-img15{
+        background-image: url(../images/kategori_img/vinyl.jpeg);
+    }
+    
+
+    .category-categoryTab-shopNow{
+        padding: 1rem;
+        background-color: #A09167;
+    }
+    .category-categoryTab-img16{
+        background-color: #C0AB9F;
+
+    }
