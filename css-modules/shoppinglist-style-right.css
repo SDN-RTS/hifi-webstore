@@ -1,0 +1,30 @@
+#shoppingList__manufSelection {
+    margin: 2em;
+    grid-area: manufSelection;
+    display: flex;
+    flex-direction: column;
+}
+
+#shoppingList__manufSelection h4 {
+    color: #B99B61;
+}
+
+#shoppingList__manufSelection div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+#shoppingList__manufSelection div a {
+    color: black;
+    text-decoration: none;
+    padding-top: 1em;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+#shoppingList__manufSelection a {
+    text-decoration: none;
+    color: #B99B61;
+    padding-top: 1em;
+}
