@@ -22,6 +22,16 @@
     font-family: 'MuseoSansBold', sans-serif;
     text-transform: uppercase;
 }
+.navigationItem__aTag--active {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-beige);
+    font-family: 'MuseoSansBold', sans-serif;
+    text-transform: uppercase;
+}
 .navigationItem__aTag:hover{
     color: var(--dark-beige);
 }
