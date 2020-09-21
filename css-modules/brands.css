@@ -41,7 +41,7 @@
     font-size: 30px;
 }
 
-.homePage__logoWrapper{
+.brands__logoWrapper{
     display: flex;
     flex-direction: column;
     align-self: center;
