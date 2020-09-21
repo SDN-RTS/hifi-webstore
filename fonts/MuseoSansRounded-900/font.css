@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MuseoSansRounded-900';
+  src: url('MuseoSansRounded-900.eot');
+  src: url('MuseoSansRounded-900.eot?#iefix') format('embedded-opentype'),
+       url('MuseoSansRounded-900.svg#MuseoSansRounded-900') format('svg'),
+       url('MuseoSansRounded-900.ttf') format('truetype'),
+       url('MuseoSansRounded-900.woff') format('woff'),
+       url('MuseoSansRounded-900.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
