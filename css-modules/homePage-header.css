@@ -1,0 +1,123 @@
+.header__homePage{
+    height: 70vh;
+    background-image: url("../images/background-img/header-speaker.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.homePage__subscriptionPanelWrapper{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+
+
+.subscriptionPanelWrapper__subscriptionPanel{
+    width: 17vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.subscriptionPanelWrapper__subscriptionPanel a svg{
+    fill: var(--white);
+    height: 24px;
+    width: 24px;
+}
+
+.subscriptionPanel__button{
+    cursor: pointer;
+    border-radius: 4px;
+    height: 24px;
+    border: none;
+    color: var(--white);
+    font-family: MuseoSansBolder, sans-serif;
+    font-size: .75em;
+    width: 100px;
+    background-color: var(--light-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscriptionPanel__button p{
+    border-left: .5px solid var(--light-grey);
+    padding-left: 5px;
+
+}
+
+.subscriptionPanel__button a svg{
+    padding-top: 4px;
+    height: 18px;
+    width: 18px;
+}
+
+/* mikkel skal ændre til nav */
+.homePage__nav{
+    height: 25px;
+    width: 100%;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.homePage__logoWrapper{
+    align-self: center;
+    margin-top: 120px;
+    font-size: 1.07em;
+    color: var(--white);
+
+}
+
+.homePage__logoWrapper h3{
+    font-family: MuseoSansBold, sans-serif;
+    letter-spacing: .2em;
+    font-size: .965em ;
+}
+
+.homePage__logo h3:last-child{
+    letter-spacing: 16.87px; 
+}
+
+.homePage__logo{
+    height: 190px;
+    width: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px solid var(--white);
+    color: var(--white);
+    font-size: 1.7em;
+    letter-spacing: 3px;
+    line-height: 1.15em;
+    margin-bottom: 7px;
+    font-family: MuseoSansBold, sans-serif;
+    border: var(--white) 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+}
+
+.homePage__logo{
+    font-size: 2.33em;
+}
+
+.homePage__intro{
+    height: 30vh;
+    background-image: url("../images/background-img/Component\ 20.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 2em;
+    font-family: MuseoSansBold,sans-serif;
+}
+
+.homePage__intro h1{
+    text-align: center;
+    width: 90%;
+}

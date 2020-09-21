@@ -9,6 +9,45 @@
 </head>
 
 <body>
+    <nav class="body__nav">
+        <ul class="nav__navigation">
+            <li class="navigation__navigationItem">
+                <a class="navigationItem__aTag" href="#">
+                    Home
+                </a>
+            </li>
+            <li class="navigation__navigationItem">
+                <a class="navigationItem__aTag" href="#">
+                    about us
+                </a>
+            </li>
+            <li class="navigation__navigationItem">
+                <a class="navigationItem__aTag" href="#">
+                    brands
+                </a>
+            </li>
+            <li class="navigation__navigationItem">
+                <a class="navigationItem__aTag" href="#">
+                    blog
+                </a>
+            </li>
+            <li class="navigation__navigationItem">
+                <a class="navigationItem__aTag" href="#">
+                    events
+                </a>
+            </li>
+            <li class="navigation__navigationItem">
+                <a class="navigationItem__aTag" href="#">
+                    shop
+                </a>
+            </li>
+            <li class="navigation__navigationItem">
+                <a class="navigationItem__aTag" href="#">
+                    contact us
+                </a>
+            </li>
+        </ul>
+    </nav>
     <div class="shoppingList__wrapper">
         <nav id="shoppingList__navBar">
             <a href="#"><img src="images/logos/hificorner-logo.svg" alt=""></a>
@@ -207,8 +246,34 @@
             </div>
         </main>
 
-        <footer id="shoppingList__footerSection">
+        <footer class="body__mainFooter">
+          <div class="mainFooter__leftsideFooter">
+              <address class="leftsideFooter__address">
+                  HI-FI Corner <br>
+                  Edinburgh 2 Joppa Road EH15 2EU <br>
+                  Falkirk 44 Cow Wynd FK1 1PU <br>
+              </address>
+              <div class="leftsideFooter__policy">
+                  <p class="policy__policies"><a href="#" class="policy__returnPolicy">Returns & Refunds</a> | <a class="policy__privacyPolicy"href="#">Privacy Policy</a></p>
+              </div>
+          </div>
 
+          <div class="mainFooter__rightsideFooter">
+              <div class="rightsideFooter__paymentMethods">
+                  <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/Worldpay-Logo.png" alt="worldpay">
+                  <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/Visa-Logo.png" alt="visa">
+                  <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/MasterCard-Logo.png" alt="mastercard">
+                  <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/Maestro_logo.png" alt="maestro">
+                  <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/jcb-logo.png" alt="jbc">
+                  <img class="paymentMethods__paymentMethod" src="images/logos/betalingmetoder/Paypal-Logo.png" alt="paypal">
+              </div>
+              <div class="rightsideFooter__socialIcons">
+                  <a class="mainFooterSocialIcons__socialIcon" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="mainFooterSocialIcons__socialIcon" href="#"><i class="fab fa-youtube"></i></a>
+                  <a class="mainFooterSocialIcons__socialIcon" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="mainFooterSocialIcons__socialIcon" href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
         </footer>
     </div>
     <script src="script.js"></script>
