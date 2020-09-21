@@ -5,6 +5,8 @@
 @import "css-modules/product-view.css";
 @import "css-modules/socialMedia.css";
 @import "css-modules/links.css";
+@import "css-modules/shoppinglist-style.css";
+@import "fonts/fonts.css";
 /* Box sizing rules */
 *,
 *::before,
