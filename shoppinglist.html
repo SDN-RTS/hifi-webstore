@@ -6,9 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HI-FI Webstore</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/69046e919d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <header id="shoppingList__headerSection">
+        <section class="shoppingHeader__logoWrapper">
+
+        </section>
+        <section class="shoppingHeader__headerMainSection">
+            <form class="shoppingHeader__searchForm" action="">
+                <input type="text">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <a href="#" class="headerSection__account clickable">
+                <i class="fas fa-user"></i>
+                <p>Account</p>
+            </a>
+            <a href="#" class="headerSection__cart clickable">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Cart</p>
+            </a>
+            <article class="headerSection__info">
+                <a class="clickable" href="#"><i class="fas fa-map-marker-alt"></i></a>
+                <a class="clickable" href="#"><i class="fas fa-phone"></i></a>
+                <a class="clickable" href="#"><i class="far fa-envelope"></i></a>
+            </article>
+        </section>
+    </header>
     <nav class="body__nav">
         <ul class="nav__navigation">
             <li class="navigation__navigationItem">
@@ -49,9 +74,6 @@
         </ul>
     </nav>
     <div class="shoppingList__wrapper">
-        <header id="shoppingList__headerSection">
-
-        </header>
 
         <main id="shoppingList__mainSection">
             <div id="shoppingList__leftSection">
