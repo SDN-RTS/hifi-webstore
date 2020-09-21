@@ -1,0 +1,111 @@
+#shoppingList__sortShoppingList {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    margin-top: 2em;
+    background-color: #e1e1e1;
+    grid-area: sortShoppingList;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+#shoppingList__sortShoppingList p {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+#shoppingList__sortShoppingList img {
+    padding-left: 0.5em;
+    width: 1em;
+}
+
+#shoppingList__sortShoppingList div {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#shoppingList__sortShoppingListMid {
+    display: flex;
+    flex-direction: inherit;
+    padding-left: 2em;
+}
+
+#shoppingList__sortShoppingListEnd {
+    display: flex;
+    flex-direction: inherit;
+    padding-left: 2em;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#shoppingList__showProductsList {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-area: showProductsList;
+}
+
+.shoppingList__productListing {
+    padding: 1em;
+    display: grid;
+    grid-template-rows: 50% 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-areas: "product-image"
+    "product-name"
+    "product-price"
+    "product-purchase";    
+}
+
+.shoppingList__imgContainer {
+    grid-area: product-image;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.shoppingList__imgContainer img {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid grey;
+}
+
+.shoppingList__productListing a {
+    color: black;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    font-weight: 600;
+    grid-area: product-name;
+    text-align: center;
+}
+
+.shoppingList__productListing p {
+    color: #B99B61;
+    grid-area: product-price;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 3em;
+}
+
+.shoppingList__btnContainer {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+}
+
+.shoppingList__productListing button {
+    grid-area: product-purchase;
+    background-color: #B99B61;
+    color: white;
+    font-weight: 800;
+    font-size: 0.8em;
+    padding: 0.5em 0.5em;
+}
