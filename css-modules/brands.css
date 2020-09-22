@@ -41,11 +41,12 @@
     font-size: 30px;
 }
 
-.homePage__logoWrapper{
+.brands__logoWrapper{
     display: flex;
     flex-direction: column;
     align-self: center;
     color: var(--white);
+    margin: 0;
 
 }
 .logoTextLineWrapper{
@@ -58,7 +59,7 @@
     height: auto;
 }
 
-.homePage__logo{
+.brands__logo{
     height: 200px;
     width: 200px;
     border: 2px solid var(--white);
