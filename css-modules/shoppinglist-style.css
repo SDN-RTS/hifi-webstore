@@ -1,6 +1,7 @@
 @import 'shoppinglist-style-left.css';
 @import 'shoppinglist-style-mid.css';
 @import 'shoppinglist-style-right.css';
+@import 'shoppinglist-style-nav.css';
 
 * {
     padding: 0;
