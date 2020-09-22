@@ -1,31 +1,49 @@
 {
-    "key": [
+    "products": [
         {
-            "name"
+            "name": "amplifier",
+            "category": "amplifier",
+            "id": "1"
         },
         {
-            
+            "name": "amplifier",
+            "category": "amplifier",
+            "id": "2"   
         },
         {
-            
+            "name": "amplifier",
+            "category": "amplifier",
+            "id": "3"
         },
         {
-            
+            "name": "amplifier",
+            "category": "amplifier",
+            "id": "4"
         },
         {
-            
+            "name": "amplifier",
+            "category": "amplifier",
+            "id": "5"
         },
         {
-            
+            "name": "amplifier",
+            "category": "amplifier",
+            "id": "6"
         },
         {
-            
+            "name": "amplifier",
+            "category": "amplifier",
+            "id": "7"
         },
         {
-            
+            "name": "amplifier",
+            "category": "amplifier",
+            "id": "8"
         },
         {
-            
+            "name": "amplifier",
+            "category": "amplifier",
+            "id": "9"
         }
     ]
 }
