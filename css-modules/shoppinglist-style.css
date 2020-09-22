@@ -7,6 +7,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: MuseoSansReg;
+}
+.shoppingHeader__searchForm{
+    display: flex;
+}
+.shoppingHeader__searchForm input, .shoppingHeader__searchForm button{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.shoppingHeader__searchForm input{
+    width: 400px;
 }
 
 .shoppingList__wrapper {
@@ -28,9 +41,51 @@
 }
 
 #shoppingList__headerSection {
-    height: 2em;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
     width: 100%;
 }
+.shoppingHeader__headerMainSection{
+    display: flex;
+    margin-right: 40px;
+}
+.headerSection__info{
+    margin-left: 20px;
+}
+.headerSection__account, .headerSection__cart{
+    display: flex;
+    align-items: center;
+}
+.headerSection__cart{
+    margin-left: 20px;
+}
+.headerSection__account{
+    margin-left: 40px;
+}
+.clickable{
+    color: white;
+}
+.clickable p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.clickable:hover{
+    color: var(--dark-beige);
+}
+.headerSection__info .clickable:nth-child(2){
+    margin: 0 20px;
+}
+.fas, .far{
+    font-size: 20px;
+}
+
+
+
+
+
 
 #shoppingList__mainSection {
     background-color: white;

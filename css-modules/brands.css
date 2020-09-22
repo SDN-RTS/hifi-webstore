@@ -1,0 +1,136 @@
+.brandsBody{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.brandsMainHeader__topBar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 65px;
+    padding: 0 40px;
+}
+.brandsTopBar__topBarIcons{
+    display: flex;
+    align-items: center;
+}
+.brandsTopBar__topBarIcon:nth-child(2){
+    margin: 0 30px;
+}
+.brandsTopBar__topBarIcon{
+    display: block;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.brandsMainHeader__heroBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    align-items: center;
+    height: 300px;
+}
+
+.brandsHeroBox__heading{
+    color: white;
+    font-family: MuseoSansReg;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.homePage__logoWrapper{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: var(--white);
+
+}
+.logoTextLineWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.logoTextWrapper{
+    margin: 0 0 15px 15px;
+    width: 35px;
+    height: auto;
+}
+
+.homePage__logo{
+    height: 200px;
+    width: 200px;
+    border: 2px solid var(--white);
+    color: var(--white);
+    font-size: 1.7em;
+    font-family: MuseoSansBold, sans-serif;
+    border: var(--white) 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+}
+.brandsMainHeader__heroBox{
+    background-image: url("../images/hojtalere/brands--headerImg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.brandsBody__main{
+    display: flex;
+    margin: 0 10%;
+    background-color: white;
+    padding: 30px;
+    flex-grow: 1;
+
+}
+.brandsMain__brandLogos{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    background: linear-gradient(to right, black, rgb(71, 71, 71));
+    align-items: flex-start;
+}
+.brandsMain__brandsDescWrapper{
+    flex: 1;
+}
+.brandLogos__heading{
+    color: var(--dark-beige);
+}
+.brandLogos__allBrands{
+    height: 70%;
+}
+
+
+
+
+.brandsMain__brandsDescWrapper{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/hojtalere/brands--headerImg.jpg');;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+}
+.brandsDescWrapper__brandsDescHeading{
+    color: var(--dark-beige);
+    margin-bottom: 25px;
+    font-family: MuseoSansReg;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.brandsDescWrapper__brandsDesc{
+    color: white;
+    margin-bottom: 25px;
+    font-family: MuseoSansReg;
+}
+a#brandsDescWrapper__backToStoreBtn{
+    color: var(--dark-beige);
+    font-family: MuseoSansReg;
+    font-size: 20px;
+    text-decoration: none;
+}
+a#brandsDescWrapper__backToStoreBtn:hover{
+    text-decoration: underline;
+}
