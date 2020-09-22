@@ -1,180 +1,148 @@
 {
     "products": [
         {
-            "cd_afspillere": [
-                {
-                    "name": "Exp 2010S CD",
-                    "image": "images/cd_afspillere/Exp_2010S_CD.gif"
-                },
-                {
-                    "name": "Creek Destiny CD",
-                    "image": "images/cd_afspillere/creek_Destiny_CD.jpg"
-                },
-                {
-                    "name": "Creek Classic CD",
-                    "image": "images/cd_afspillere/creek_classic_cd.jpg"
-                },
-                {
-                    "name": "Creek Evo CD",
-                    "image": "images/cd_afspillere/creek_evo_cd.jpg"
-                }
-            ]
+            "name": "Exp 2010S CD",
+            "image": "images/cd_afspillere/Exp_2010S_CD.gif"
         },
         {
-            "dvd_afspillere": [
-                {
-                    "name": "Creek Classic",
-                    "image": "images/dvdafspillere/creek_classic.jpg"
-                },
-                {
-                    "name": "Exposure 210S",
-                    "image": "images/dvdafspillere/exposure_2010S.jpg"
-                },
-                {
-                    "name": "Parasound D200",
-                    "image": "images/dvdafspillere/parasound_d200.jpg"
-                },
-                {
-                    "name": "Parasound HaloD3",
-                    "image": "images/dvdafspillere/parasound_halod3.jpg"
-                }
-            ]
+            "name": "Creek Destiny CD",
+            "image": "images/cd_afspillere/creek_Destiny_CD.jpg"
         },
         {
-            "effekt_forstaerkere": [
-                {
-                    "name": "Manley Mahi",
-                    "image": "images/effektforstaerkere/manley_mahi.jpg"
-                },
-                {
-                    "name": "Manley Neoclassic 300B",
-                    "image": "images/effektforstaerkere/manley_neoclassic300b.jpg"
-                },
-                {
-                    "name": "Manley Snapper",
-                    "image": "images/effektforstaerkere/manley_snapper.jpg"
-                },
-                {
-                    "name": "Parasound Haloa 23",
-                    "image": "images/effektforstaerkere/parasound_haloa23.jpg"
-                }
-            ]
+            "name": "Creek Classic CD",
+            "image": "images/cd_afspillere/creek_classic_cd.jpg"
         },
         {
-            "forforstaerkere": [
-                {
-                    "name": "Manley Mahi",
-                    "image": "images/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg"
-                },
-                {
-                    "name": "Manley Neoclassic 300B",
-                    "image": "images/forforstaerkere/parasound_classic7100.jpg"
-                },
-                {
-                    "name": "Manley Snapper",
-                    "image": "images/forforstaerkere/parasound_halo3.jpg"
-                },
-                {
-                    "name": "Parasound Haloa 23",
-                    "image": "images/forforstaerkere/Project_prebox.jpg"
-                }
-            ]
+            "name": "Creek Evo CD",
+            "image": "images/cd_afspillere/creek_evo_cd.jpg"
         },
         {
-            "hojtalere": [
-                {
-                    "name": "Boesendorfer VCS Wall",
-                    "image": "images/hojtalere/boesendorfer_vcs_wall.gif"
-                },
-                {
-                    "name": "Epos m5",
-                    "image": "images/hojtalere/epis_m5.gif"
-                },
-                {
-                    "name": "Harbeth hl7es2",
-                    "image": "images/hojtalere/harbeth_hl7es2.jpg"
-                },
-                {
-                    "name": "Harbeth Monitor 30",
-                    "image": "images/hojtalere/harbeth_monitor30.jpg"
-                },
-                {
-                    "name": "Harbeth p3es2",
-                    "image": "images/hojtalere/harbeth_p3es2.jpg"
-                }
-            ]
+            "name": "Creek Classic",
+            "image": "images/dvdafspillere/creek_classic.jpg"
         },
         {
-            "int_forstaerkere": [
-                {
-                    "name": "Creek a50I",
-                    "image": "images/int_forstaerkere/creek_a50I.jpg"
-                },
-                {
-                    "name": "Creek Classic 5350SE",
-                    "image": "images/int_forstaerkere/creek_classic5350SE.jpg"
-                },
-                {
-                    "name": "Creek Destiny Amp",
-                    "image": "images/int_forstaerkere/creek_destinyamp.jpg"
-                },
-                {
-                    "name": "Manley Snapper",
-                    "image": "images/int_forstaerkere/manley_snapper.jpg"
-                },
-                {
-                    "name": "Manley Stingray",
-                    "image": "images/int_forstaerkere/Manley_Stringray.jpg"
-                }
-            ]
+            "name": "Exposure 210S",
+            "image": "images/dvdafspillere/exposure_2010S.jpg"
         },
         {
-            "pladespillere": [
-                {
-                    "name": "Pro Ject Debut 3 BL",
-                    "image": "images/pladespillere/Pro_ject_Debut_3_bl.jpg"
-                },
-                {
-                    "name": "Pro Ject Debut III red 1",
-                    "image": "images/pladespillere/Pro_ject_Debut_III_red_1.jpg"
-                },
-                {
-                    "name": "Pro Ject Debut III yellow 1",
-                    "image": "images/pladespillere/Pro_ject_Debut_III_yellow_1.jpg"
-                },
-                {
-                    "name": "Pro Ject RPM 5",
-                    "image": "images/pladespillere/Pro_ject_rpm_5.jpg"
-                },
-                {
-                    "name": "Pro Ject RPM 10",
-                    "image": "images/pladespillere/Pro_ject_rpm10.jpg"
-                }
-            ]
+            "name": "Parasound D200",
+            "image": "images/dvdafspillere/parasound_d200.jpg"
         },
         {
-            "roer_forstaerkere": [
-                {
-                    "name": "Jolida JD102b",
-                    "image": "images/roer_forstaerkere/jolida_JD102b.jpg"
-                },
-                {
-                    "name": "Jolida JD202a",
-                    "image": "images/roer_forstaerkere/jolida_JD202a.jpg"
-                },
-                {
-                    "name": "Jolida JD300b",
-                    "image": "images/roer_forstaerkere/jolida_JD300b.jpg"
-                },
-                {
-                    "name": "Jolida JD302b",
-                    "image": "images/roer_forstaerkere/jolida_JD302b.jpg"
-                },
-                {
-                    "name": "Jolida JD502b",
-                    "image": "images/roer_forstaerkere/jolida_JD502b.jpg"
-                }
-            ]
+            "name": "Parasound HaloD3",
+            "image": "images/dvdafspillere/parasound_halod3.jpg"
+        },
+        {
+            "name": "Manley Mahi",
+            "image": "images/effektforstaerkere/manley_mahi.jpg"
+        },
+        {
+            "name": "Manley Neoclassic 300B",
+            "image": "images/effektforstaerkere/manley_neoclassic300b.jpg"
+        },
+        {
+            "name": "Manley Snapper",
+            "image": "images/effektforstaerkere/manley_snapper.jpg"
+        },
+        {
+            "name": "Parasound Haloa 23",
+            "image": "images/effektforstaerkere/parasound_haloa23.jpg"
+        },
+        {
+            "name": "Manley Mahi",
+            "image": "images/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg"
+        },
+        {
+            "name": "Manley Neoclassic 300B",
+            "image": "images/forforstaerkere/parasound_classic7100.jpg"
+        },
+        {
+            "name": "Manley Snapper",
+            "image": "images/forforstaerkere/parasound_halo3.jpg"
+        },
+        {
+            "name": "Parasound Haloa 23",
+            "image": "images/forforstaerkere/Project_prebox.jpg"
+        },
+        {
+            "name": "Boesendorfer VCS Wall",
+            "image": "images/hojtalere/boesendorfer_vcs_wall.gif"
+        },
+        {
+            "name": "Epos m5",
+            "image": "images/hojtalere/epis_m5.gif"
+        },
+        {
+            "name": "Harbeth hl7es2",
+            "image": "images/hojtalere/harbeth_hl7es2.jpg"
+        },
+        {
+            "name": "Harbeth Monitor 30",
+            "image": "images/hojtalere/harbeth_monitor30.jpg"
+        },
+        {
+            "name": "Harbeth p3es2",
+            "image": "images/hojtalere/harbeth_p3es2.jpg"
+        },
+        {
+            "name": "Creek a50I",
+            "image": "images/int_forstaerkere/creek_a50I.jpg"
+        },
+        {
+            "name": "Creek Classic 5350SE",
+            "image": "images/int_forstaerkere/creek_classic5350SE.jpg"
+        },
+        {
+            "name": "Creek Destiny Amp",
+            "image": "images/int_forstaerkere/creek_destinyamp.jpg"
+        },
+        {
+            "name": "Manley Snapper",
+            "image": "images/int_forstaerkere/manley_snapper.jpg"
+        },
+        {
+            "name": "Manley Stingray",
+            "image": "images/int_forstaerkere/Manley_Stringray.jpg"
+        },
+        {
+            "name": "Pro Ject Debut 3 BL",
+            "image": "images/pladespillere/Pro_ject_Debut_3_bl.jpg"
+        },
+        {
+            "name": "Pro Ject Debut III red 1",
+            "image": "images/pladespillere/Pro_ject_Debut_III_red_1.jpg"
+        },
+        {
+            "name": "Pro Ject Debut III yellow 1",
+            "image": "images/pladespillere/Pro_ject_Debut_III_yellow_1.jpg"
+        },
+        {
+            "name": "Pro Ject RPM 5",
+            "image": "images/pladespillere/Pro_ject_rpm_5.jpg"
+        },
+        {
+            "name": "Pro Ject RPM 10",
+            "image": "images/pladespillere/Pro_ject_rpm10.jpg"
+        },
+        {
+            "name": "Jolida JD102b",
+            "image": "images/roer_forstaerkere/jolida_JD102b.jpg"
+        },
+        {
+            "name": "Jolida JD202a",
+            "image": "images/roer_forstaerkere/jolida_JD202a.jpg"
+        },
+        {
+            "name": "Jolida JD300b",
+            "image": "images/roer_forstaerkere/jolida_JD300b.jpg"
+        },
+        {
+            "name": "Jolida JD302b",
+            "image": "images/roer_forstaerkere/jolida_JD302b.jpg"
+        },
+        {
+            "name": "Jolida JD502b",
+            "image": "images/roer_forstaerkere/jolida_JD502b.jpg"
         }
     ]
 }
