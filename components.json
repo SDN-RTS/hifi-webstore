@@ -6,7 +6,8 @@
             "price": "492",
             "manufactor": "Exp",
             "warranty": "2 years",
-            "category": "cd_afspillere"
+            "category": "cd_afspillere",
+            "id": 1
         },
         {
             "name": "Creek Destiny CD",
@@ -14,7 +15,8 @@
             "price": "555",
             "manufactor": "Creek",
             "warranty": "3 years",
-            "category": "cd_afspillere"
+            "category": "cd_afspillere",
+            "id": 2
         },
         {
             "name": "Creek Classic CD",
@@ -22,7 +24,8 @@
             "price": "534",
             "manufactor": "Creek",
             "warranty": "2 years",
-            "category": "cd_afspillere"
+            "category": "cd_afspillere",
+            "id": 3
         },
         {
             "name": "Creek Evo CD",
@@ -30,7 +33,8 @@
             "price": "395",
             "manufactor": "Creek",
             "warranty": "3 years",
-            "category": "cd_afspillere"
+            "category": "cd_afspillere",
+            "id": 4
         },
         {
             "name": "Creek Classic",
@@ -38,7 +42,8 @@
             "price": "469",
             "manufactor": "Creek",
             "warranty": "2 years",
-            "category": "dvdafspillere"
+            "category": "dvdafspillere",
+            "id": 5
         },
         {
             "name": "Exposure 210S",
@@ -46,7 +51,8 @@
             "price": "450",
             "manufactor": "Exposure",
             "warranty": "4 years",
-            "category": "dvdafspillere"
+            "category": "dvdafspillere",
+            "id": 6
         },
         {
             "name": "Parasound D200",
@@ -54,7 +60,8 @@
             "price": "649",
             "manufactor": "Parasound",
             "warranty": "4 years",
-            "category": "dvdafspillere"
+            "category": "dvdafspillere",
+            "id": 7
         },
         {
             "name": "Parasound HaloD3",
@@ -62,7 +69,8 @@
             "price": "640",
             "manufactor": "Parasound",
             "warranty": "2 years",
-            "category": "dvdafspillere"
+            "category": "dvdafspillere",
+            "id": 8
         },
         {
             "name": "Manley Mahi",
@@ -70,7 +78,8 @@
             "price": "320",
             "manufactor": "Manley",
             "warranty": "3 years",
-            "category": "effektforstaerkere"
+            "category": "effektforstaerkere",
+            "id": 9
         },
         {
             "name": "Manley Neoclassic 300B",
@@ -78,7 +87,8 @@
             "price": "394",
             "manufactor": "Manley",
             "warranty": "3 years",
-            "category": "effektforstaerkere"
+            "category": "effektforstaerkere",
+            "id": 10
         },
         {
             "name": "Manley Snapper",
@@ -86,7 +96,8 @@
             "price": "249",
             "manufactor": "Manley",
             "warranty": "2 years",
-            "category": "effektforstaerkere"
+            "category": "effektforstaerkere",
+            "id": 11
         },
         {
             "name": "Parasound Haloa 23",
@@ -94,7 +105,8 @@
             "price": "287",
             "manufactor": "Parasound",
             "warranty": "4 years",
-            "category": "effektforstaerkere"
+            "category": "effektforstaerkere",
+            "id": 12
         },
         {
             "name": "Manley Mahi",
@@ -102,7 +114,8 @@
             "price": "595",
             "manufactor": "Creek",
             "warranty": "4 years",
-            "category": "forforstaerkere"
+            "category": "forforstaerkere",
+            "id": 13
         },
         {
             "name": "Manley Neoclassic 300B",
@@ -110,7 +123,8 @@
             "price": "645",
             "manufactor": "Parasound",
             "warranty": "2 years",
-            "category": "forforstaerkere"
+            "category": "forforstaerkere",
+            "id": 14
         },
         {
             "name": "Manley Snapper",
@@ -118,7 +132,8 @@
             "price": "349",
             "manufactor": "Parasound",
             "warranty": "2 years",
-            "category": "forforstaerkere"
+            "category": "forforstaerkere",
+            "id": 15
         },
         {
             "name": "Parasound Haloa 23",
@@ -126,7 +141,8 @@
             "price": "410",
             "manufactor": "Project",
             "warranty": "4 years",
-            "category": "forforstaerkere"
+            "category": "forforstaerkere",
+            "id": 16
         },
         {
             "name": "Boesendorfer VCS Wall",
@@ -134,7 +150,8 @@
             "price": "575",
             "manufactor": "Boesendorfer",
             "warranty": "3 years",
-            "category": "hojtalere"
+            "category": "hojtalere",
+            "id": 17
         },
         {
             "name": "Epos m5",
@@ -142,7 +159,8 @@
             "price": "370",
             "manufactor": "Epis",
             "warranty": "2 years",
-            "category": "hojtalere"
+            "category": "hojtalere",
+            "id": 18
         },
         {
             "name": "Harbeth hl7es2",
@@ -150,7 +168,8 @@
             "price": "595",
             "manufactor": "Harbeth",
             "warranty": "2 years",
-            "category": "hojtalere"
+            "category": "hojtalere",
+            "id": 19
         },
         {
             "name": "Harbeth Monitor 30",
@@ -158,7 +177,8 @@
             "price": "469",
             "manufactor": "Harbeth",
             "warranty": "4 years",
-            "category": "hojtalere"
+            "category": "hojtalere",
+            "id": 20
         },
         {
             "name": "Harbeth p3es2",
@@ -166,7 +186,8 @@
             "price": "295",
             "manufactor": "Harbeth",
             "warranty": "3 years",
-            "category": "hojtalere"
+            "category": "hojtalere",
+            "id": 21
         },
         {
             "name": "Creek a50I",
@@ -174,7 +195,8 @@
             "price": "340",
             "manufactor": "Creek",
             "warranty": "2 years",
-            "category": "int_forstaerkere"
+            "category": "int_forstaerkere",
+            "id": 22
         },
         {
             "name": "Creek Classic 5350SE",
@@ -182,7 +204,8 @@
             "price": "385",
             "manufactor": "Creek",
             "warranty": "3 years",
-            "category": "int_forstaerkere"
+            "category": "int_forstaerkere",
+            "id": 23
         },
         {
             "name": "Creek Destiny Amp",
@@ -190,7 +213,8 @@
             "price": "565",
             "manufactor": "Creek",
             "warranty": "2 years",
-            "category": "int_forstaerkere"
+            "category": "int_forstaerkere",
+            "id": 24
         },
         {
             "name": "Manley Snapper",
@@ -198,7 +222,8 @@
             "price": "630",
             "manufactor": "Manley",
             "warranty": "2 years",
-            "category": "int_forstaerkere"
+            "category": "int_forstaerkere",
+            "id": 25
         },
         {
             "name": "Manley Stingray",
@@ -206,7 +231,8 @@
             "price": "379",
             "manufactor": "Manley",
             "warranty": "4 years",
-            "category": "int_forstaerkere"
+            "category": "int_forstaerkere",
+            "id": 26
         },
         {
             "name": "Pro Ject Debut 3 BL",
@@ -214,7 +240,8 @@
             "price": "240",
             "manufactor": "Project",
             "warranty": "3 years",
-            "category": "pladespillere"
+            "category": "pladespillere",
+            "id": 27
         },
         {
             "name": "Pro Ject Debut III red 1",
@@ -222,7 +249,8 @@
             "price": "310",
             "manufactor": "Project",
             "warranty": "2 years",
-            "category": "pladespillere"
+            "category": "pladespillere",
+            "id": 28
         },
         {
             "name": "Pro Ject Debut III yellow 1",
@@ -230,7 +258,8 @@
             "price": "240",
             "manufactor": "Project",
             "warranty": "2 years",
-            "category": "pladespillere"
+            "category": "pladespillere",
+            "id": 29
         },
         {
             "name": "Pro Ject RPM 5",
@@ -238,7 +267,8 @@
             "price": "290",
             "manufactor": "Project",
             "warranty": "3 years",
-            "category": "pladespillere"
+            "category": "pladespillere",
+            "id": 30
         },
         {
             "name": "Pro Ject RPM 10",
@@ -246,7 +276,8 @@
             "price": "300",
             "manufactor": "Project",
             "warranty": "4 years",
-            "category": "pladespillere"
+            "category": "pladespillere",
+            "id": 31
         },
         {
             "name": "Jolida JD102b",
@@ -254,7 +285,8 @@
             "price": "370",
             "manufactor": "Jolida",
             "warranty": "2 years",
-            "category": "roer-forstaerkere"
+            "category": "roer-forstaerkere",
+            "id": 32
         },
         {
             "name": "Jolida JD202a",
@@ -262,7 +294,8 @@
             "price": "230",
             "manufactor": "Jolida",
             "warranty": "3 years",
-            "category": "roer-forstaerkere"
+            "category": "roer-forstaerkere",
+            "id": 33
         },
         {
             "name": "Jolida JD300b",
@@ -270,7 +303,8 @@
             "price": "230",
             "manufactor": "Jolida",
             "warranty": "4 years",
-            "category": "roer-forstaerkere"
+            "category": "roer-forstaerkere",
+            "id": 34
         },
         {
             "name": "Jolida JD302b",
@@ -278,7 +312,8 @@
             "price": "490",
             "manufactor": "Jolida",
             "warranty": "2 years",
-            "category": "roer-forstaerkere"
+            "category": "roer-forstaerkere",
+            "id": 35
         },
         {
             "name": "Jolida JD502b",
@@ -286,7 +321,8 @@
             "price": "502",
             "manufactor": "Jolida",
             "warranty": "3 years",
-            "category": "roer-forstaerkere"
+            "category": "roer-forstaerkere",
+            "id": 36
         }
     ]
 }
