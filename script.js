@@ -1,4 +1,6 @@
 
 import slideShow from './js-modules/slideshow.js';
-slideShow();
+import search from './js-modules/search.js';
+// slideShow();
+search();
 

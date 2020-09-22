@@ -35,7 +35,11 @@
     padding-right: 0.5em;
 }
 
-.shoppingList__navBar div input {
+.shoppingList__navbar form {
     margin-right: 5%;
-    width: 20%;
+}
+
+.shoppingList__navBar form input {
+    width: 350px;
+    height: 100%;
 }
