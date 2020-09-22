@@ -93,7 +93,6 @@
     line-height: 1.15em;
     margin-bottom: 7px;
     font-family: MuseoSansBold, sans-serif;
-    border: var(--white) 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;   
