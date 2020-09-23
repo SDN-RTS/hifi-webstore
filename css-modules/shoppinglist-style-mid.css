@@ -53,7 +53,7 @@
 .shoppingList__productListing {
     padding: 1em;
     display: grid;
-    grid-template-rows: 50% 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
     grid-template-columns: auto;
     grid-template-areas: "product-image"
     "product-name"
@@ -73,7 +73,6 @@
 
 .shoppingList__imgContainer img {
     width: 100%;
-    height: fit-content;
     border: 1px solid grey;
 }
 
@@ -91,7 +90,6 @@
     grid-area: product-price;
     text-align: center;
     font-weight: 500;
-    padding-bottom: 3em;
 }
 
 .shoppingList__btnContainer {
