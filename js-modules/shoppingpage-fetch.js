@@ -1,4 +1,3 @@
-    function fetchAll(){
         function getProducts() {
         return fetch("./components.json")
             .then(function (response) {
@@ -39,7 +38,6 @@
             };
     
     }
-export default fetchAll;
 
     
 
