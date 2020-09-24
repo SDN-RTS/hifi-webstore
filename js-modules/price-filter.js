@@ -20,9 +20,6 @@ function priceFilter() {
                 }
             });
         })
-    } else {
-        import fetchAll from '/shoppingpage-fetch.js';
-        fetchAll();
     }
     
     let priceBtns = document.querySelectorAll(".price-btns");
