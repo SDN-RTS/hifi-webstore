@@ -12,7 +12,7 @@
         {
             "name": "Creek Destiny CD",
             "image": "images/cd_afspillere/creek_Destiny_CD.jpg",
-            "price": "£555",
+            "price": "2300",
             "manufactor": "Creek",
             "warranty": "3 years",
             "category": "cd_afspillere",
@@ -128,8 +128,8 @@
         },
         {
             "name": "Manley Snapper",
-            "image": "images/forforstaerkere/parasound_halo3.jpg",
-            "price": "£349",
+            "image": "images/forforstaerkere/parasound_halop3.jpg",
+            "price": "349",
             "manufactor": "Parasound",
             "warranty": "2 years",
             "category": "forforstaerkere",
@@ -155,8 +155,8 @@
         },
         {
             "name": "Epos m5",
-            "image": "images/hojtalere/epis_m5.gif",
-            "price": "£370",
+            "image": "images/hojtalere/epos_m5.gif",
+            "price": "370",
             "manufactor": "Epis",
             "warranty": "2 years",
             "category": "hojtalere",
@@ -227,8 +227,8 @@
         },
         {
             "name": "Manley Stingray",
-            "image": "images/int_forstaerkere/Manley_Stringray.jpg",
-            "price": "£379",
+            "image": "images/int_forstaerkere/Manley_Stingray.jpg",
+            "price": "379",
             "manufactor": "Manley",
             "warranty": "4 years",
             "category": "int_forstaerkere",
