@@ -3,7 +3,7 @@
         {
             "name": "Exp 2010S CD",
             "image": "images/cd_afspillere/Exp_2010S_CD.gif",
-            "price": "492",
+            "price": "£492",
             "manufactor": "Exp",
             "warranty": "2 years",
             "category": "cd_afspillere",
@@ -21,7 +21,7 @@
         {
             "name": "Creek Classic CD",
             "image": "images/cd_afspillere/creek_classic_cd.jpg",
-            "price": "534",
+            "price": "£534",
             "manufactor": "Creek",
             "warranty": "2 years",
             "category": "cd_afspillere",
@@ -30,7 +30,7 @@
         {
             "name": "Creek Evo CD",
             "image": "images/cd_afspillere/creek_evo_cd.jpg",
-            "price": "395",
+            "price": "£395",
             "manufactor": "Creek",
             "warranty": "3 years",
             "category": "cd_afspillere",
@@ -39,7 +39,7 @@
         {
             "name": "Creek Classic",
             "image": "images/dvdafspillere/creek_classic.jpg",
-            "price": "469",
+            "price": "£469",
             "manufactor": "Creek",
             "warranty": "2 years",
             "category": "dvdafspillere",
@@ -48,7 +48,7 @@
         {
             "name": "Exposure 210S",
             "image": "images/dvdafspillere/exposure_2010S.jpg",
-            "price": "450",
+            "price": "£450",
             "manufactor": "Exposure",
             "warranty": "4 years",
             "category": "dvdafspillere",
@@ -57,7 +57,7 @@
         {
             "name": "Parasound D200",
             "image": "images/dvdafspillere/parasound_d200.jpg",
-            "price": "649",
+            "price": "£649",
             "manufactor": "Parasound",
             "warranty": "4 years",
             "category": "dvdafspillere",
@@ -66,7 +66,7 @@
         {
             "name": "Parasound HaloD3",
             "image": "images/dvdafspillere/parasound_halod3.jpg",
-            "price": "640",
+            "price": "£640",
             "manufactor": "Parasound",
             "warranty": "2 years",
             "category": "dvdafspillere",
@@ -75,7 +75,7 @@
         {
             "name": "Manley Mahi",
             "image": "images/effektforstaerkere/manley_mahi.jpg",
-            "price": "320",
+            "price": "£320",
             "manufactor": "Manley",
             "warranty": "3 years",
             "category": "effektforstaerkere",
@@ -84,7 +84,7 @@
         {
             "name": "Manley Neoclassic 300B",
             "image": "images/effektforstaerkere/manley_neoclassic300b.jpg",
-            "price": "394",
+            "price": "£394",
             "manufactor": "Manley",
             "warranty": "3 years",
             "category": "effektforstaerkere",
@@ -93,7 +93,7 @@
         {
             "name": "Manley Snapper",
             "image": "images/effektforstaerkere/manley_snapper.jpg",
-            "price": "249",
+            "price": "£249",
             "manufactor": "Manley",
             "warranty": "2 years",
             "category": "effektforstaerkere",
@@ -111,7 +111,7 @@
         {
             "name": "Manley Mahi",
             "image": "images/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
-            "price": "595",
+            "price": "£595",
             "manufactor": "Creek",
             "warranty": "4 years",
             "category": "forforstaerkere",
@@ -120,7 +120,7 @@
         {
             "name": "Manley Neoclassic 300B",
             "image": "images/forforstaerkere/parasound_classic7100.jpg",
-            "price": "645",
+            "price": "£645",
             "manufactor": "Parasound",
             "warranty": "2 years",
             "category": "forforstaerkere",
@@ -138,7 +138,7 @@
         {
             "name": "Parasound Haloa 23",
             "image": "images/forforstaerkere/Project_prebox.jpg",
-            "price": "410",
+            "price": "£410",
             "manufactor": "Project",
             "warranty": "4 years",
             "category": "forforstaerkere",
@@ -147,7 +147,7 @@
         {
             "name": "Boesendorfer VCS Wall",
             "image": "images/hojtalere/boesendorfer_vcs_wall.gif",
-            "price": "575",
+            "price": "£575",
             "manufactor": "Boesendorfer",
             "warranty": "3 years",
             "category": "hojtalere",
@@ -165,7 +165,7 @@
         {
             "name": "Harbeth hl7es2",
             "image": "images/hojtalere/harbeth_hl7es2.jpg",
-            "price": "595",
+            "price": "£595",
             "manufactor": "Harbeth",
             "warranty": "2 years",
             "category": "hojtalere",
@@ -174,7 +174,7 @@
         {
             "name": "Harbeth Monitor 30",
             "image": "images/hojtalere/harbeth_monitor30.jpg",
-            "price": "469",
+            "price": "£469",
             "manufactor": "Harbeth",
             "warranty": "4 years",
             "category": "hojtalere",
@@ -183,7 +183,7 @@
         {
             "name": "Harbeth p3es2",
             "image": "images/hojtalere/harbeth_p3es2.jpg",
-            "price": "295",
+            "price": "£295",
             "manufactor": "Harbeth",
             "warranty": "3 years",
             "category": "hojtalere",
@@ -192,7 +192,7 @@
         {
             "name": "Creek a50I",
             "image": "images/int_forstaerkere/creek_a50I.jpg",
-            "price": "340",
+            "price": "£340",
             "manufactor": "Creek",
             "warranty": "2 years",
             "category": "int_forstaerkere",
@@ -201,7 +201,7 @@
         {
             "name": "Creek Classic 5350SE",
             "image": "images/int_forstaerkere/creek_classic5350SE.jpg",
-            "price": "385",
+            "price": "£385",
             "manufactor": "Creek",
             "warranty": "3 years",
             "category": "int_forstaerkere",
@@ -210,7 +210,7 @@
         {
             "name": "Creek Destiny Amp",
             "image": "images/int_forstaerkere/creek_destinyamp.jpg",
-            "price": "565",
+            "price": "£565",
             "manufactor": "Creek",
             "warranty": "2 years",
             "category": "int_forstaerkere",
@@ -219,7 +219,7 @@
         {
             "name": "Manley Snapper",
             "image": "images/int_forstaerkere/manley_snapper.jpg",
-            "price": "630",
+            "price": "£630",
             "manufactor": "Manley",
             "warranty": "2 years",
             "category": "int_forstaerkere",
@@ -237,7 +237,7 @@
         {
             "name": "Pro Ject Debut 3 BL",
             "image": "images/pladespillere/Pro_ject_Debut_3_bl.jpg",
-            "price": "240",
+            "price": "£240",
             "manufactor": "Project",
             "warranty": "3 years",
             "category": "pladespillere",
@@ -246,7 +246,7 @@
         {
             "name": "Pro Ject Debut III red 1",
             "image": "images/pladespillere/Pro_ject_Debut_III_red_1.jpg",
-            "price": "310",
+            "price": "£310",
             "manufactor": "Project",
             "warranty": "2 years",
             "category": "pladespillere",
@@ -255,7 +255,7 @@
         {
             "name": "Pro Ject Debut III yellow 1",
             "image": "images/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
-            "price": "240",
+            "price": "£240",
             "manufactor": "Project",
             "warranty": "2 years",
             "category": "pladespillere",
@@ -273,7 +273,7 @@
         {
             "name": "Pro Ject RPM 10",
             "image": "images/pladespillere/Pro_ject_rpm10.jpg",
-            "price": "300",
+            "price": "£300",
             "manufactor": "Project",
             "warranty": "4 years",
             "category": "pladespillere",
@@ -282,7 +282,7 @@
         {
             "name": "Jolida JD102b",
             "image": "images/roer_forstaerkere/jolida_JD102b.jpg",
-            "price": "370",
+            "price": "£370",
             "manufactor": "Jolida",
             "warranty": "2 years",
             "category": "roer-forstaerkere",
@@ -291,7 +291,7 @@
         {
             "name": "Jolida JD202a",
             "image": "images/roer_forstaerkere/jolida_JD202a.jpg",
-            "price": "230",
+            "price": "£230",
             "manufactor": "Jolida",
             "warranty": "3 years",
             "category": "roer-forstaerkere",
@@ -300,7 +300,7 @@
         {
             "name": "Jolida JD300b",
             "image": "images/roer_forstaerkere/jolida_JD300b.jpg",
-            "price": "230",
+            "price": "£230",
             "manufactor": "Jolida",
             "warranty": "4 years",
             "category": "roer-forstaerkere",
@@ -309,7 +309,7 @@
         {
             "name": "Jolida JD302b",
             "image": "images/roer_forstaerkere/jolida_JD302b.jpg",
-            "price": "490",
+            "price": "£490",
             "manufactor": "Jolida",
             "warranty": "2 years",
             "category": "roer-forstaerkere",
@@ -318,7 +318,7 @@
         {
             "name": "Jolida JD502b",
             "image": "images/roer_forstaerkere/jolida_JD502b.jpg",
-            "price": "502",
+            "price": "£502",
             "manufactor": "Jolida",
             "warranty": "3 years",
             "category": "roer-forstaerkere",
