@@ -70,5 +70,4 @@ function priceFilter() {
 
     
 }
-priceFilter()
-// export default priceFilter;
+export default priceFilter;
