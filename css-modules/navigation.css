@@ -2,12 +2,14 @@
     height: 65px;
     background-color: black;
     border-top: 1px solid rgba(160, 145, 103, 0.42);
+    width: 100%;
 }
 .nav__navigation{
     display: flex;
     justify-content: space-between;
     padding: 0 30vw;
     height: 100%;
+    width: 100%;
 }
 .navigation__navigationItem{
     height: 100%;
