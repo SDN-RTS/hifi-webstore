@@ -1,3 +1,4 @@
+
 var url = new URLSearchParams(window.location.search)
 showProduct(url.get("id"));
 
@@ -27,6 +28,10 @@ function showProduct(id){
         });
     })    
 }
+
+export default showProduct;
+
+
 
 
 
