@@ -1,4 +1,4 @@
-import fetchAll from './js-modules/shoppingpage-fetch.js'
+import fetchAll from './js-modules/shoppingpage-fetch.js';
 
 function priceFilter() {
     var url = new URLSearchParams(window.location.search)
