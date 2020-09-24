@@ -1,5 +1,5 @@
+import fetchAll from './js-modules/shoppingpage-fetch.js';
 function priceFilter() {
-    import fetchAll from './js-modules/shoppingpage-fetch.js';
     var url = new URLSearchParams(window.location.search)
     let itemsWrapper = document.querySelector("#shoppingList__showProductsList");
     var category = url.get("category")
@@ -21,7 +21,7 @@ function priceFilter() {
             });
         })
     } else {
-    fetchAll();
+        fetchAll();
     }
     let priceBtns = document.querySelectorAll(".price-btns");
     for (let i = 0; i < priceBtns.length; i++) {
