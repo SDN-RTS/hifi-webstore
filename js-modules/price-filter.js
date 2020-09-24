@@ -1,5 +1,27 @@
+
+
 function priceFilter() {
+    var url = new URLSearchParams(window.location.search)
     let itemsWrapper = document.querySelector("#shoppingList__showProductsList");
+    var category = url.get("category")
+    if(url.get("category")){
+        itemsWrapper.innerHTML = "";
+        getProducts()
+        .then(function(products){
+            products.forEach(product => {
+                if(product.category == category){
+                    let clone = window.shoppingListTemplate.content.cloneNode(true);
+                    clone.querySelector(".shoppingList__img").src = product.image;
+                    clone.querySelector(".shoppingList__imgContainer").alt = product.category;
+                    clone.querySelector(".shoppingList__productName").innerText = product.name;
+                    clone.querySelector(".shoppingList__productName").href = "product-view.html?id=" + product.id;
+                    clone.querySelector(".shoppingList__priceTag").innerText += product.price;
+
+                    itemsWrapper.appendChild(clone)
+                }
+            });
+        })
+    }
     let priceBtns = document.querySelectorAll(".price-btns");
     for (let i = 0; i < priceBtns.length; i++) {
         let btn = priceBtns[i];
