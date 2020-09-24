@@ -1,6 +1,6 @@
 
 function priceFilter() {
-    import fetchAll from './js-modules/shoppingpage-fetch.js'
+    import fetchAll from '/shoppingpage-fetch.js'
     var url = new URLSearchParams(window.location.search)
     let itemsWrapper = document.querySelector("#shoppingList__showProductsList");
     var category = url.get("category")
