@@ -52,11 +52,11 @@ function priceFilter() {
             var maxPrice = parseInt(floats[1]);
             products.forEach(product => {
                 if (product.price > minPrice && product.price < maxPrice){
-                    let clone = window.shoppingListTemplate.content.cloneNode(true);
+                    let clone = window.shoppingList__showProductsList__template.content.cloneNode(true);
                     clone.querySelector(".shoppingList__img").src = product.image;
                     clone.querySelector(".shoppingList__imgContainer").alt = product.category;
                     clone.querySelector(".shoppingList__productName").innerText = product.name;
-                    clone.querySelector(".shoppingList__productName").href = "product-view.html?id=" + product.id;
+                    clone.querySelector(".shoppingList__productListing").href = "product-view.html?id=" + product.id;
                     clone.querySelector(".shoppingList__priceTag").innerText += product.price;
 
 

@@ -53,7 +53,7 @@
 .shoppingList__productListing {
     padding: 1em;
     display: grid;
-    grid-template-rows: 3fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr .5fr .5fr .5fr;
     grid-template-columns: auto;
     grid-template-areas: "product-image"
     "product-name"
@@ -68,7 +68,6 @@
     align-items: center;
     height: auto;
     width: 100%;
-    margin-bottom: 0.5em;
 }
 
 .shoppingList__imgContainer img {
@@ -85,7 +84,14 @@
     text-align: center;
 }
 
-.shoppingList__productListing p {
+.shoppingList__productName {
+    color: #B99B61;
+    grid-area: product-name;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.shoppingList__priceTag {
     color: #B99B61;
     grid-area: product-price;
     text-align: center;

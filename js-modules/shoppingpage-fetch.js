@@ -21,11 +21,12 @@
                 let productName = clone.querySelector(".shoppingList__productName");
                 let productImg = clone.querySelector(".shoppingList__img");
                 let productPrice = clone.querySelector(".shoppingList__priceTag");
+                let productItem = clone.querySelector(".shoppingList__productListing");
                 
                 // let productList = document.querySelector("#shoppingList__showProductsList");
                 
                 productName.innerText = product.name;
-                shoppingList__showProductsList.href = "product-vies.html?id=" + product.id;
+                productItem.href = "product-view.html?id=" + product.id;
                 productImg.src = product.image;
                 productPrice.innerText = product.price;
 
