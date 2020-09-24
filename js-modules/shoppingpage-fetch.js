@@ -28,7 +28,7 @@
                 productName.innerText = product.name;
                 productItem.href = "product-view.html?id=" + product.id;
                 productImg.src = product.image;
-                productPrice.innerText = product.price;
+                productPrice.innerText += product.price;
 
 
                 shoppingList.appendChild(clone);
