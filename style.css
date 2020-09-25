@@ -12,6 +12,7 @@
 @import "css-modules/shoppinglist-style.css";
 @import "fonts/fonts.css";
 @import "css-modules/category.css";
+@import "css-modules/recommend.css";
 /* Box sizing rules */
 *,
 *::before,
