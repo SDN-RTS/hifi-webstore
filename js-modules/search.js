@@ -9,7 +9,18 @@ function searchFunction() {
 
                 let userInput = document.querySelector('#search').value;
                 if (userInput == '') {
-                    return;
+                    let clone = shoppingListTemplate.content.cloneNode(true);
+                    let productName = clone.querySelector(".shoppingList__productName");
+                    let productImg = clone.querySelector(".shoppingList__img");
+                    let productPrice = clone.querySelector(".shoppingList__priceTag");
+                    let productItem = clone.querySelector(".shoppingList__productListing");
+
+                    productName.innerText = product.name;
+                    productItem.href = "product-view.html?id=" + product.id;
+                    productImg.src = product.image;
+                    productPrice.innerText += product.price;
+
+                    shoppingList.appendChild(clone);
                 }
 
                 let matches = data.products.filter(function(result){
