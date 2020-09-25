@@ -6,9 +6,10 @@ priceFilter();
 import productDetails from './js-modules/productDetails.js';
 productDetails();
 
-var urlParam = new URLSearchParams(window.location.search);
-urlParam.addEventListener("change", function(){
-    if (root == "shoppinglist.html" && !urlParam.get("category")){
+window.addEventListener('locationchange', function(){
+    let urlParam = new URLSearchParams(window.location.search);
+    var root2 = url.split("/")[3];
+    if (root2 == "shoppinglist.html" && !urlParam.get("category")){
         console.log("det er nu den skal aktivere");
         fetchAll();
     }
