@@ -25,6 +25,24 @@ function priceFilter() {
     let priceBtns = document.querySelectorAll(".price-btns");
     for (let i = 0; i < priceBtns.length; i++) {
         let btn = priceBtns[i];
+        let regex = /[+-]?\d+(\.\d+)?/g;
+        let txt = btn.innerText;
+        let floats = txt.match(regex)
+        let minPrice = parseInt(floats[0]);
+        let maxPrice = parseInt(floats[1]);
+        getProducts()
+        .then(function(products){
+            let amount = 0;
+            for (let i = 0; i < products.length; i++) {
+                let product = products[i];
+                if (product.price > minPrice && product.price < maxPrice){
+                    amount++
+                }
+            }
+            btn.innerText = "£" + minPrice + " - £" + maxPrice + "(" + amount + ")"
+        })
+
+
         btn.addEventListener("click", function (event) {
             event.preventDefault();
             productSorter(event.target)
@@ -45,11 +63,11 @@ function priceFilter() {
         getProducts()
         .then(function (products) {
             itemsWrapper.innerHTML = "";
-            var regex = /[+-]?\d+(\.\d+)?/g;
+            let regex = /[+-]?\d+(\.\d+)?/g;
             let txt = btn.innerText;
-            var floats = txt.match(regex)
-            var minPrice = parseInt(floats[0]);
-            var maxPrice = parseInt(floats[1]);
+            let floats = txt.match(regex)
+            let minPrice = parseInt(floats[0]);
+            let maxPrice = parseInt(floats[1]);
             products.forEach(product => {
                 if (product.price > minPrice && product.price < maxPrice){
                     let clone = window.shoppingList__showProductsList__template.content.cloneNode(true);
