@@ -4,9 +4,9 @@ function priceFilter() {
     let itemsWrapper = document.querySelector("#shoppingList__showProductsList");
     var category = url.get("category")
     if(url.get("category")){
-        itemsWrapper.innerHTML = "";
         getProducts()
         .then(function(products){
+            itemsWrapper.innerHTML = "";
             products.forEach(product => {
                 if(product.category == category){
                     let clone = window.shoppingList__showProductsList__template.content.cloneNode(true);
