@@ -19,6 +19,9 @@ function priceFilter() {
                     itemsWrapper.appendChild(clone)
                 }
             });
+            let itemsNumberContainer = document.querySelector(".amountOfItems");
+            let numProducts = document.querySelectorAll(".shoppingList__productListing");
+            itemsNumberContainer.innerText = numProducts.length + " Item(s)"
         })
     }
     
