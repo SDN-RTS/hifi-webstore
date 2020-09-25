@@ -1,3 +1,4 @@
+function fetchAll(){
     function getProducts() {
         return fetch("./components.json")
             .then(function (response) {
@@ -22,21 +23,27 @@
                 let productImg = clone.querySelector(".shoppingList__img");
                 let productPrice = clone.querySelector(".shoppingList__priceTag");
                 let productItem = clone.querySelector(".shoppingList__productListing");
-                
+
                 // let productList = document.querySelector("#shoppingList__showProductsList");
-                
+
                 productName.innerText = product.name;
                 productItem.href = "product-view.html?id=" + product.id;
                 productImg.src = product.image;
-                productPrice.innerText = product.price;
+                productPrice.innerText += product.price;
 
 
                 shoppingList.appendChild(clone);
-                });
-            })
-            
-        };
-        showProducts()
+            });
+            let itemsNumberContainer = document.querySelector(".amountOfItems");
+            let numProducts = document.querySelectorAll(".shoppingList__productListing");
+            itemsNumberContainer.innerText = numProducts.length + " Item(s)"
+
+        })
+    }
+    showProducts()
+}
+export default fetchAll;
+
     
 
 // document.querySelector(".shoppingList__productListing").addEventListener("click", function(event) {
