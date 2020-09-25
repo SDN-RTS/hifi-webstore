@@ -8,7 +8,7 @@ productDetails();
 
 window.addEventListener('locationchange', function(){
     let urlParam = new URLSearchParams(window.location.search);
-    var root2 = url.split("/")[3];
+    var root2 = urlParam.split("/")[3];
     if (root2 == "shoppinglist.html" && !urlParam.get("category")){
         console.log("det er nu den skal aktivere");
         fetchAll();
