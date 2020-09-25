@@ -13,7 +13,7 @@ function priceFilter() {
                     clone.querySelector(".shoppingList__img").src = product.image;
                     clone.querySelector(".shoppingList__imgContainer").alt = product.category;
                     clone.querySelector(".shoppingList__productName").innerText = product.name;
-                    clone.querySelector(".shoppingList__productName").href = "product-view.html?id=" + product.id;
+                    clone.querySelector(".shoppingList__productListing").href = "product-view.html?id=" + product.id;
                     clone.querySelector(".shoppingList__priceTag").innerText += product.price;
 
                     itemsWrapper.appendChild(clone)
