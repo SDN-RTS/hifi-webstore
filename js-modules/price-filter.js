@@ -87,9 +87,11 @@ function priceFilter() {
                 }
             });
         })
-        let itemsNumberContainer = document.querySelector(".amountOfItems");
-        let numProducts = document.querySelectorAll(".shoppingList__productListing");
-        itemsNumberContainer.innerText = numProducts.length + " Item(s)"
+        .then(function(){
+            let itemsNumberContainer = document.querySelector(".amountOfItems");
+            let numProducts = document.querySelectorAll(".shoppingList__productListing");
+            itemsNumberContainer.innerText = numProducts.length + " Item(s)"
+        })
     }
 
     
