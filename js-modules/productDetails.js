@@ -22,6 +22,7 @@ function showProduct(id){
                 document.querySelector(".productViewMain__manufactor").innerText = product.manufactor;
                 document.querySelector(".productViewMain__warranty").innerText = product.warranty;
                 document.querySelector(".productViewMain__amplifier").innerText = product.category;
+                document.querySelector(".productViewMain__amplifier").href = "shoppinglist.html?category=" + product.category;
                 document.querySelector(".productImageWrapper__image").alt = product.category;
 
             }

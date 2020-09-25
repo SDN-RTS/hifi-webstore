@@ -1,0 +1,13 @@
+.recommendOtherProducts__images{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    border-bottom: 1px black solid
+}
+
+
+.productViewMain__recommendOtherProducts h2{
+    text-align: center;
+    padding-top: 2em;
+}
