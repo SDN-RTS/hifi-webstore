@@ -4,6 +4,9 @@ import fetchAll from './js-modules/shoppingpage-fetch.js';
 fetchAll();
 priceFilter();
 
+import searchFunction from './js-modules/search.js';
+searchFunction();
+
 import productDetails from './js-modules/productDetails.js';
 productDetails();
 
