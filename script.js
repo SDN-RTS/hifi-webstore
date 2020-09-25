@@ -3,6 +3,9 @@ import slideShow from './js-modules/slideshow.js';
 import productDetails from './js-modules/productDetails.js';
 productDetails();
 
+import presentRecommendedProducts from './js-modules/recommend.js';
+presentRecommendedProducts();
+
 
 
 var url = window.location.href;

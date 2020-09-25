@@ -39,7 +39,7 @@
             <nav class="body__nav">
                 <ul class="nav__navigation">
                     <li class="navigation__navigationItem">
-                        <a class="navigationItem__aTag" href="#">
+                        <a class="navigationItem__aTag" href="./index.html">
                             Home
                         </a>
                     </li>
@@ -49,7 +49,7 @@
                         </a>
                     </li>
                     <li class="navigation__navigationItem">
-                        <a class="navigationItem__aTag" href="#">
+                        <a class="navigationItem__aTag" href="./brandSite.html">
                             brands
                         </a>
                     </li>
@@ -64,7 +64,7 @@
                         </a>
                     </li>
                     <li class="navigation__navigationItem">
-                        <a class="navigationItem__aTag--active" href="#">
+                        <a class="navigationItem__aTag--active" href="./category.html">
                             shop
                         </a>
                     </li>
@@ -79,9 +79,11 @@
 
         <main class="productViewMain">
             <section class="productViewMain__navInfo">
-                <p>Home</p>
-                /
-                <p class="productViewMain__amplifier">Amplifiers</p>
+                <a href="./index.html">Home</a>
+                 /
+                <a href="./category.html">Categories</a>
+                 /
+                <a class="productViewMain__amplifier">Amplifiers</a>
                 /
                 <p>Marantz PM6006 UK Edition Integrated Amplifier</p>
             </section>
@@ -191,6 +193,13 @@
                     </section>
                 </section>
             </div>
+
+            <div class="productViewMain__recommendOtherProducts" id="productViewMain__recommendOtherProducts">
+                <h2>View similar products</h2>
+                <article class="recommendOtherProducts__images">
+
+                </article>
+            </div>
             <section class="productViewMain__productDescriptionWrapper">
                 <h2 class="productDescriptionWrapper__name">DESCRIPTION</h2>
                 <table>
@@ -245,6 +254,7 @@
                 </table>
             </section>
             <a href="#" class="productViewMain__callUs"><i class="fas fa-phone"></i>CALL US ABOUT THIS PRODUCT</a>
+            
         </main>
         
         <footer class="body__mainFooter">
@@ -280,7 +290,7 @@
 
 
     <script src="script.js" type="module"></script>
-    <!-- <script src="./js-modules/productDetails.js"></script> -->
+    
 </body>
 
 </html>

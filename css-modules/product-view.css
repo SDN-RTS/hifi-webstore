@@ -68,18 +68,21 @@
         display: flex;
         align-items: flex-end;
         height: 3em;
+
     }
-        .productViewMain__navInfo p {
+
+        .productViewMain__navInfo a {
+            text-decoration: none;
             margin: 0 1em;
             font-family: 'MuseoSansBold', sans-serif;
             font-size: .9em;
             color: var(--dark-beige);
         }
-        .productViewMain__navInfo p:first-child {
-            margin: 0 1em;
-            margin-left: 0;
-        }
+        
         .productViewMain__navInfo p:last-child {
+            margin: 0 1em;
+            font-family: 'MuseoSansBold', sans-serif;
+            font-size: .9em;
             color: var(--black);
         }
 
