@@ -20,8 +20,8 @@ if(root == "product-view.html"){
 
 if(root == "shoppinglist.html"){
     searchFunction();
+    fetchAll();
 }
-fetchAll();
 
 import priceFilter from './js-modules/price-filter.js';
 
