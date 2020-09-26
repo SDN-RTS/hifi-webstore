@@ -86,7 +86,63 @@ function priceFilter() {
         })
     }
 
-    
+
+    let select = document.querySelector(".priceSelector");
+    select.addEventListener("change", function(){
+        if (select.value == "priceA") {
+            getProducts()
+            .then(function(products){
+                console.log(products);
+                itemsWrapper.innerHTML = ""
+                let priceArray = []
+                for (let i = 0; i < products.length; i++) {
+                    let product = products[i];
+                    priceArray.push(product)
+                    
+                }
+                let priceArrayIds = Object.keys(priceArray)
+                let asc = products.sort(function(a, b){
+                    return a.price - b.price;
+                })
+                console.log(asc);
+                for (let i = 0; i < priceArrayIds.length; i++) {
+                    let id = priceArrayIds[i];
+                    
+                    let product = products.filter(function(product){
+                        return product.id == id;
+                    })
+                    let clone = window.shoppingList__showProductsList__template.content.cloneNode(true);
+                    clone.querySelector(".shoppingList__img").src ="./" + product[0].image;
+                    clone.querySelector(".shoppingList__imgContainer").alt = product[0].category;
+                    clone.querySelector(".shoppingList__productName").innerText = product[0].name;
+                    clone.querySelector(".shoppingList__productName").href = "product-view.html?id=" + product[0].id;
+                    clone.querySelector(".shoppingList__priceTag").innerText += product[0].price;
+                    
+                    
+                    
+                    itemsWrapper.appendChild(clone)
+                }   
+            })
+        } 
+        if(select.value == "priceB"){
+            getProducts()
+            .then(function(products){
+                let priceArray = []
+                products.forEach(product => {
+                    priceArray.push(product.price)
+                });
+                priceArray.sort(function(a, b){
+                    return b - a;
+                })
+                console.log(priceArray);
+            })
+        }
+    })
+
+    var numArray = [140000, 104, 99];
+    numArray.sort(function(a, b) {
+        return b - a;
+    });
 }
 priceFilter()
 // export default priceFilter;
