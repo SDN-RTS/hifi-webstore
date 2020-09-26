@@ -26,7 +26,7 @@ function priceFilter() {
     }
     
     let priceBtns = document.querySelectorAll(".price-btns");
-    for (let i = 0; i < priceBtns.length; i++) {
+    for (let i = 0; i < (priceBtns.length - 1); i++) {
         let btn = priceBtns[i];
         let regex = /[+-]?\d+(\.\d+)?/g;
         let txt = btn.innerText;
