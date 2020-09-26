@@ -94,6 +94,76 @@ function priceFilter() {
         })
     }
 
-    
+
+    let select = document.querySelector(".priceSelector");
+    select.addEventListener("change", function(){
+        if (select.value == "priceA") {
+            getProducts()
+            .then(function(products){
+                console.log(products);
+                itemsWrapper.innerHTML = ""
+                let priceArray = []
+                for (let i = 0; i < products.length; i++) {
+                    let product = products[i];
+                    priceArray.push(product)
+                    
+                }
+                let priceArrayIds = Object.keys(priceArray)
+                let asc = products.sort(function(a, b){
+                    return a.price - b.price;
+                })
+                for (let i = 0; i < asc.length; i++) {
+                    product = asc[i];
+                    let clone = window.shoppingList__showProductsList__template.content.cloneNode(true);
+                    clone.querySelector(".shoppingList__img").src = product.image;
+                    clone.querySelector(".shoppingList__imgContainer").alt = product.category;
+                    clone.querySelector(".shoppingList__productName").innerText = product.name;
+                    clone.querySelector(".shoppingList__productName").href = "product-view.html?id=" + product.id;
+                    clone.querySelector(".shoppingList__priceTag").innerText += product.price;
+
+
+
+
+                    itemsWrapper.appendChild(clone)
+
+                    
+                }
+            })
+        } 
+        if(select.value == "priceB"){
+            getProducts()
+            .then(function(products){
+                console.log(products);
+                itemsWrapper.innerHTML = ""
+                let priceArray = []
+                for (let i = 0; i < products.length; i++) {
+                    let product = products[i];
+                    priceArray.push(product)
+                    
+                }
+                let priceArrayIds = Object.keys(priceArray)
+                let asc = products.sort(function(a, b){
+                    return b.price - a.price;
+                })
+                for (let i = 0; i < asc.length; i++) {
+                    product = asc[i];
+                    let clone = window.shoppingList__showProductsList__template.content.cloneNode(true);
+                    clone.querySelector(".shoppingList__img").src = product.image;
+                    clone.querySelector(".shoppingList__imgContainer").alt = product.category;
+                    clone.querySelector(".shoppingList__productName").innerText = product.name;
+                    clone.querySelector(".shoppingList__productListing").href = "product-view.html?id=" + product.id;
+                    clone.querySelector(".shoppingList__priceTag").innerText += product.price;
+                    itemsWrapper.appendChild(clone)
+
+                    
+                }
+            })
+        }
+    })
+
+    var numArray = [140000, 104, 99];
+    numArray.sort(function(a, b) {
+        return b - a;
+    });
 }
 export default priceFilter;
