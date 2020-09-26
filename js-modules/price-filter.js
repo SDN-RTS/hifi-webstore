@@ -104,37 +104,51 @@ function priceFilter() {
                 let asc = products.sort(function(a, b){
                     return a.price - b.price;
                 })
-                console.log(asc);
-                for (let i = 0; i < priceArrayIds.length; i++) {
-                    let id = priceArrayIds[i];
-                    
-                    let product = products.filter(function(product){
-                        return product.id == id;
-                    })
+                for (let i = 0; i < asc.length; i++) {
+                    product = asc[i];
                     let clone = window.shoppingList__showProductsList__template.content.cloneNode(true);
-                    clone.querySelector(".shoppingList__img").src ="./" + product[0].image;
-                    clone.querySelector(".shoppingList__imgContainer").alt = product[0].category;
-                    clone.querySelector(".shoppingList__productName").innerText = product[0].name;
-                    clone.querySelector(".shoppingList__productName").href = "product-view.html?id=" + product[0].id;
-                    clone.querySelector(".shoppingList__priceTag").innerText += product[0].price;
-                    
-                    
-                    
+                    clone.querySelector(".shoppingList__img").src = product.image;
+                    clone.querySelector(".shoppingList__imgContainer").alt = product.category;
+                    clone.querySelector(".shoppingList__productName").innerText = product.name;
+                    clone.querySelector(".shoppingList__productName").href = "product-view.html?id=" + product.id;
+                    clone.querySelector(".shoppingList__priceTag").innerText += product.price;
+
+
+
+
                     itemsWrapper.appendChild(clone)
-                }   
+
+                    
+                }
             })
         } 
         if(select.value == "priceB"){
             getProducts()
             .then(function(products){
+                console.log(products);
+                itemsWrapper.innerHTML = ""
                 let priceArray = []
-                products.forEach(product => {
-                    priceArray.push(product.price)
-                });
-                priceArray.sort(function(a, b){
-                    return b - a;
+                for (let i = 0; i < products.length; i++) {
+                    let product = products[i];
+                    priceArray.push(product)
+                    
+                }
+                let priceArrayIds = Object.keys(priceArray)
+                let asc = products.sort(function(a, b){
+                    return b.price - a.price;
                 })
-                console.log(priceArray);
+                for (let i = 0; i < asc.length; i++) {
+                    product = asc[i];
+                    let clone = window.shoppingList__showProductsList__template.content.cloneNode(true);
+                    clone.querySelector(".shoppingList__img").src = product.image;
+                    clone.querySelector(".shoppingList__imgContainer").alt = product.category;
+                    clone.querySelector(".shoppingList__productName").innerText = product.name;
+                    clone.querySelector(".shoppingList__productListing").href = "product-view.html?id=" + product.id;
+                    clone.querySelector(".shoppingList__priceTag").innerText += product.price;
+                    itemsWrapper.appendChild(clone)
+
+                    
+                }
             })
         }
     })
