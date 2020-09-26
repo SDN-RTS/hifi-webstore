@@ -146,7 +146,7 @@ function priceFilter() {
                     return b.price - a.price;
                 })
                 for (let i = 0; i < asc.length; i++) {
-                    product = asc[i];
+                    let product = asc[i];
                     let clone = window.shoppingList__showProductsList__template.content.cloneNode(true);
                     clone.querySelector(".shoppingList__img").src = product.image;
                     clone.querySelector(".shoppingList__imgContainer").alt = product.category;
