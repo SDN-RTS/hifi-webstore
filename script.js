@@ -9,7 +9,7 @@ import presentRecommendedProducts from './js-modules/recommend.js';
 
 
 var url = window.location.href;
-var root = url.split("/")[2]; //index.html
+var root = url.split("/")[4]; //index.html
 console.log(root)
 
 if(root == "index.html"){
