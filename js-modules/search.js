@@ -29,8 +29,6 @@ function searchFunction() {
                     return result.name.toLowerCase().includes(userInput);
                 });
 
-                console.log(matches)
-
                 let card = document.querySelectorAll('.shoppingList__productListing');
                 card.forEach(element => {
                     element.remove();
