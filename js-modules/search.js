@@ -1,4 +1,4 @@
-function searchFunction() {
+
     document.querySelector('form').addEventListener('submit', function(event){
         event.preventDefault();
         fetch("./components.json")
@@ -41,8 +41,6 @@ function searchFunction() {
                     let productPrice = clone.querySelector(".shoppingList__priceTag");
                     let productItem = clone.querySelector(".shoppingList__productListing");
 
-                    // let productList = document.querySelector("#shoppingList__showProductsList");
-
                     productName.innerText = element.name;
                     productItem.href = "product-view.html?id=" + element.id;
                     productImg.src = element.image;
@@ -53,6 +51,3 @@ function searchFunction() {
                 });
             })
     })
-}
-
-export default searchFunction;
