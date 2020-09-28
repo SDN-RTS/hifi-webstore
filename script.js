@@ -6,7 +6,6 @@ import productDetails from './js-modules/productDetails.js';
 productDetails();
 
 import presentRecommendedProducts from './js-modules/recommend.js';
-import priceFilter from './js-modules/price-filter.js';
 
 var url = window.location.href;
 var root = url.split("/")[4]; //index.html
@@ -22,8 +21,6 @@ if(root == "product-view.html"){
 if(root == "shoppinglist.html"){
     searchFunction();
     fetchAll();
-    priceFilter();
-    
 }
 
 
