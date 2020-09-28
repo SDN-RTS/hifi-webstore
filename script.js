@@ -12,7 +12,7 @@ var url = window.location.href;
 var root = url.split("/")[4]; //index.html
 console.log(root)
 
-if(root == "index.html"){
+if(root == "index.html"|| root == ""){
     slideShow();
 }
 if(root == "product-view.html"){
