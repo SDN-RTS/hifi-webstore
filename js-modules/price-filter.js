@@ -166,4 +166,4 @@ function priceFilter() {
         return b - a;
     });
 }
-export default priceFilter;
+priceFilter()
