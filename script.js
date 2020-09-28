@@ -1,6 +1,5 @@
 import slideShow from './js-modules/slideshow.js';
 import fetchAll from './js-modules/shoppingpage-fetch.js';
-import searchFunction from './js-modules/search.js';
 
 import productDetails from './js-modules/productDetails.js';
 productDetails();
@@ -19,7 +18,6 @@ if(root == "product-view.html"){
 }
 
 if(root == "shoppinglist.html"){
-    searchFunction();
     fetchAll();
 }
 
