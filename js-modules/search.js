@@ -9,18 +9,20 @@ function searchFunction() {
 
                 let userInput = document.querySelector('#search').value;
                 if (userInput == '') {
-                    let clone = shoppingListTemplate.content.cloneNode(true);
-                    let productName = clone.querySelector(".shoppingList__productName");
-                    let productImg = clone.querySelector(".shoppingList__img");
-                    let productPrice = clone.querySelector(".shoppingList__priceTag");
-                    let productItem = clone.querySelector(".shoppingList__productListing");
+                    data.products.forEach(element => {
+                        let clone = shoppingListTemplate.content.cloneNode(true);
+                        let productName = clone.querySelector(".shoppingList__productName");
+                        let productImg = clone.querySelector(".shoppingList__img");
+                        let productPrice = clone.querySelector(".shoppingList__priceTag");
+                        let productItem = clone.querySelector(".shoppingList__productListing");
+                        
+                        productName.innerText = element.name;
+                        productItem.href = "product-view.html?id=" + element.id;
+                        productImg.src = element.image;
+                        productPrice.innerText += element.price;
 
-                    productName.innerText = element.name;
-                    productItem.href = "product-view.html?id=" + element.id;
-                    productImg.src = element.image;
-                    productPrice.innerText += element.price;
-
-                    shoppingList.appendChild(clone);
+                        shoppingList.appendChild(clone);
+                    });
                 }
 
                 let matches = data.products.filter(function(result){
