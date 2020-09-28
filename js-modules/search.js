@@ -15,10 +15,10 @@ function searchFunction() {
                     let productPrice = clone.querySelector(".shoppingList__priceTag");
                     let productItem = clone.querySelector(".shoppingList__productListing");
 
-                    productName.innerText = product.name;
-                    productItem.href = "product-view.html?id=" + product.id;
-                    productImg.src = product.image;
-                    productPrice.innerText += product.price;
+                    productName.innerText = element.name;
+                    productItem.href = "product-view.html?id=" + element.id;
+                    productImg.src = element.image;
+                    productPrice.innerText += element.price;
 
                     shoppingList.appendChild(clone);
                 }
